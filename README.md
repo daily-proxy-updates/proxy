@@ -1,61 +1,48 @@
-# 机场推荐与网络加速指南 (2026-01-30)
+# 每日科技资讯与网络加速归档 (2026-01-30)
 
-> 本文每日自动更新，整理了最新的网络加速资源、机场推荐与科学上网技巧，助你畅游互联网。
+> 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：翻墙软件、Trojan、VPN推荐、机场推荐、科学上网
+**热门标签**：便宜机场、科学上网、4K秒开、VPN推荐、机场推荐
 
-## 精选资源推荐
+## 最新归档 (Latest Archives)
 
-### 🌐 [2024 最佳机场推荐：Jc/bjaff 评测](https://kerrynotes.blog/jc/bjaff)
+### 📄 [2025可用境外DNS和DoH推荐](archives/2025/03/06-2025%E5%8F%AF%E7%94%A8%E5%A2%83%E5%A4%96DNS%E5%92%8CDoH%E6%8E%A8%E8%8D%90.md)
+> 由于2025两会期间，屏蔽了很多境外非域名DoH/DoT ,这里统计下目前可以用的境外DoH和DNS，也相对较快的。 一些可以用也比较快的境外 #DNS / DoH: HiNet 中华电信 DNS: ...
 
-注册即可免费试用，jc/bjaff 提供稳定高速的节点。
+### 📄 [如何买纯净vpn节点ip](archives/2026/01/09-%E5%A6%82%E4%BD%95%E4%B9%B0%E7%BA%AF%E5%87%80vpn%E8%8A%82%E7%82%B9ip.md)
+> 前段时间推特应该是封了一波号，很多人觉得是代理 IP 不干净导致的，于是开始到处找所谓的“纯净 IP”。 只要是大公司，风控系统里一定会做 IP、账号、设备指纹之类的关联。同一个 IP 登录一堆账号，...
 
-### ⚡ [Go/sdm 官网地址与最新优惠码](https://kerrynotes.blog/go/sdm)
+### 📄 [chatgpt降智解决办法](archives/2025/03/18-chatgpt%E9%99%8D%E6%99%BA%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md)
+> 几乎所有ip，在使用chatgpt时只要登录账号超过两三个，或者浏览器标记，或者账号标记，和ip关系不大，即使你的ip质量不错，但是有太多账号使用了也不行。这目前无解决方法，国外论坛老外也在吐槽，但是...
 
-专线接入，超低延迟，游戏/视频两不误。
+### 📄 [clash dns配置解释](archives/2025/03/11-clash-dns%E9%85%8D%E7%BD%AE%E8%A7%A3%E9%87%8A.md)
+> Clash DNS 配置示例 Clash DNS 配置示例 hosts: mtalk.google.com: 108.177.125.188 dns: enable: true # 是否启用 DNS，...
 
-### 🔥 [2024 最佳机场推荐：Go/vultrmatch 评测](https://kerrynotes.blog/go/vultrmatch)
+### 📄 [ss2022协议机场和代理客户端推荐](archives/2025/04/06-ss2022%E5%8D%8F%E8%AE%AE%E6%9C%BA%E5%9C%BA%E5%92%8C%E4%BB%A3%E7%90%86%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8E%A8%E8%8D%90.md)
+> ss2022解决了很多以前 ss 协议的缺点，比如不炸 CPU, 而且有原生 udp。目前已经有一些机场开始支持 ss2022 了。 但是目前由于未大规模使用，部分代理客户端不支持 ss2022： 目...
 
-go/vultrmatch 是一款性价比极高的加速服务，支持多平台使用。
+### 📄 [机场通报和订阅自焚](archives/2026/01/09-%E6%9C%BA%E5%9C%BA%E9%80%9A%E6%8A%A5%E5%92%8C%E8%AE%A2%E9%98%85%E8%87%AA%E7%84%9A.md)
+> 机场通报是什么 现在很多机场都是国内中转机场，也就是使用访问国外路由好的国内中转机子做中转，转发请求到境外VPS。相比直连，这样可以各个地区访问速度都比较好,且不容易被封。但是现在相关部门知道你在用国...
 
-### 📝 [1yt 官网地址与最新优惠码](https://kerrynotes.blog/1yt)
+### 📄 [2025两会防火墙GFW活动](archives/2025/03/06-2025%E4%B8%A4%E4%BC%9A%E9%98%B2%E7%81%AB%E5%A2%99GFW%E6%B4%BB%E5%8A%A8.md)
+> clash dns污染 昨天gfw屏蔽了境外非域名DoH/Dot，导致clash无法解析域名从而连接不通： 原因： clash策略里面非中国ip使用fallback解析。当clash需要访问代理节点时...
 
-晚高峰 4K 视频秒开，1yt 值得一试。
+### 📄 [家宽机场推荐](archives/2025/03/19-%E5%AE%B6%E5%AE%BD%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90.md)
+> 在机场日益同化的今天。除了比拼稳定性还有速度。还看机场ip，如果是商宽，可能无法注册或者使用，比如使用ChatGPT用家宽ip访问被降智的概率小一点。但是家宽也有缺点：带宽小，稳定性低。机场一般先保证...
 
-### 💡 [SMS-Activate宣布停止服务](https://kerrynotes.blog/sms-activate-shut-down/)
+### 📄 [支持anytls协议的代理客户端推荐](archives/2025/05/18-%E6%94%AF%E6%8C%81anytls%E5%8D%8F%E8%AE%AE%E7%9A%84%E4%BB%A3%E7%90%86%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8E%A8%E8%8D%90.md)
+> anytls: https://github.com/anytls/anytls-go 解决了tls in tls的问题。是目前推荐自建代理的协议之一。也是目前202505最新的相对出名的协议。但是因...
 
-点击上方链接查看完整教程/评测。
+### 📄 [ios版本clash客户端](archives/2025/05/18-ios%E7%89%88%E6%9C%ACclash%E5%AE%A2%E6%88%B7%E7%AB%AF.md)
+> 一般大家都在安卓和windows平台使用习惯了clash客户端，使用方便好用简单。 那么有没有ios版本的clash客户端呢？肯定是有的目前。 主要是有两个，一个收费 一个免费： Stash 付费版本...
 
-### 🌐 [Flybird 怎么样？最新使用体验报告](https://kerrynotes.blog/flybird)
+## 推荐资源 (Recommended Resources)
 
-注册即可免费试用，flybird 提供稳定高速的节点。
-
-### 🔥 [网站陷入了人机验证的死循环](https://kerrynotes.blog/bot-verifying-loop/)
-
-点击阅读全文，了解更多详细信息。
-
-### 🌐 [便宜机场推荐：Jc/dtaff 性价比之选](https://kerrynotes.blog/jc/dtaff)
-
-点击上方链接访问 jc/dtaff 官网，获取最新优惠。
-
-### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Jc/ts3](https://kerrynotes.blog/jc/ts3)
-
-注册即可免费试用，jc/ts3 提供稳定高速的节点。
-
-### 💎 [便宜机场推荐：Jc/xxf 性价比之选](https://kerrynotes.blog/jc/xxf)
-
-jc/xxf 是一款性价比极高的加速服务，支持多平台使用。
-
-### 🔥 [Jc/xjj 官网地址与最新优惠码](https://kerrynotes.blog/jc/xjj)
-
-注册即可免费试用，jc/xjj 提供稳定高速的节点。
-
-### ⭐ [2024 最佳机场推荐：Dgy 评测](https://kerrynotes.blog/dgy)
-
-专线接入，超低延迟，游戏/视频两不误。
+### 💎 [Jichanggo 机场推荐 - 高速稳定 4K 秒开](https://jichanggo.dyt.one)
+晚高峰 4K 视频秒开，JichangGo 值得一试。
 
 ---
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-01-30 22:41:15*
+*自动更新于 2026-01-30 22:58:50*
