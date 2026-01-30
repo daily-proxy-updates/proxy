@@ -5,7 +5,7 @@ import datetime
 import requests
 import re
 import xml.etree.ElementTree as ET
-from urllib.parse import urlparse, quote
+from urllib.parse import urlparse, quote, unquote
 from email.utils import parsedate_to_datetime
 
 # 配置
@@ -155,6 +155,62 @@ def save_article_to_archive(item, proxy_host):
         
     return rel_path
 
+def scan_local_archives():
+    """Scan local archives directory for existing markdown files"""
+    archives = []
+    if not os.path.exists(ARCHIVES_DIR):
+        return archives
+        
+    # Walk through archives directory
+    for root, dirs, files in os.walk(ARCHIVES_DIR):
+        for file in files:
+            if file.endswith('.md'):
+                filepath = os.path.join(root, file)
+                # Parse date from path: archives/YYYY/MM/DD-title.md
+                try:
+                    rel_path = os.path.relpath(filepath, PROJECT_ROOT)
+                    path_parts = rel_path.split(os.sep)
+                    # path_parts should be ['archives', 'YYYY', 'MM', 'DD-title.md']
+                    if len(path_parts) >= 4:
+                        year = int(path_parts[1])
+                        month = int(path_parts[2])
+                        day_str = path_parts[3].split('-')[0]
+                        day = int(day_str)
+                        
+                        # Create date object (approximate time, as we don't parse file content for time)
+                        dt = datetime.datetime(year, month, day)
+                        
+                        # Read title/desc from file content
+                        with open(filepath, 'r', encoding='utf-8') as f:
+                            content = f.read(1000) # Read first 1000 chars
+                            
+                        # Extract title (# Title)
+                        title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+                        title = title_match.group(1) if title_match else file.replace('.md', '')
+                        
+                        # Extract description (## 摘要\n\nDesc)
+                        desc_match = re.search(r'## 摘要\s*\n\n(.+?)(\n\n|$)', content, re.DOTALL)
+                        desc = desc_match.group(1) if desc_match else ""
+                        
+                        # URL encoded path for README link
+                        # Ensure forward slashes for markdown link
+                        link_path = f"archives/{year}/{month:02d}/{quote(file)}"
+                        
+                        archives.append({
+                            'name': title,
+                            'url': "", # Not needed for local file if we use local_path
+                            'local_path': link_path,
+                            'type': 'article',
+                            'description': desc,
+                            'date': dt
+                        })
+                except Exception as e:
+                    print(f"Error scanning archive {file}: {e}")
+                    
+    # Sort by date desc
+    archives.sort(key=lambda x: x['date'], reverse=True)
+    return archives
+
 def get_all_site_configs():
     """获取所有站点配置"""
     configs = []
@@ -242,17 +298,39 @@ def generate_title(item):
     template = random.choice(TITLE_TEMPLATES)
     return template.format(name=name)
 
-def generate_content(all_items, count=15):
-    """生成 Markdown 内容"""
-    if not all_items:
-        return "No articles found."
-
-    # 随机选择指定数量的文章
-    selected_items = random.sample(all_items, min(count, len(all_items)))
+def generate_content(new_items, existing_archives, count=50):
+    """生成 Markdown 内容
+    new_items: 本次抓取的新内容（包含文章和推广链接）
+    existing_archives: 本地已有的归档文章列表
+    """
+    
+    # Merge articles: new articles from feed + existing archives
+    # Use a dict to deduplicate by local_path or name
+    all_articles = {}
+    
+    # Add existing archives first
+    for item in existing_archives:
+        all_articles[item['local_path']] = item
+        
+    # Add new articles (will overwrite if same path, which is fine)
+    new_articles = [i for i in new_items if i.get('type') == 'article']
+    for item in new_articles:
+        if 'local_path' in item:
+            all_articles[item['local_path']] = item
+            
+    # Convert back to list and sort by date
+    sorted_articles = list(all_articles.values())
+    sorted_articles.sort(key=lambda x: x.get('date', datetime.datetime.min), reverse=True)
+    
+    # Take top N articles for the main list
+    display_articles = sorted_articles[:count]
+    
+    # Get referrals from new_items (referrals are not archived, just current)
+    referrals = [i for i in new_items if i.get('type') != 'article']
     
     # 生成 Markdown
     today = datetime.date.today().strftime("%Y-%m-%d")
-    md_content = f"# 每日科技资讯与网络加速归档 ({today})\n\n"
+    md_content = f"# 每日科技资讯与网络加速归档 (Last Updated: {today})\n\n"
     
     md_content += "> 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。\n\n"
     
@@ -260,46 +338,67 @@ def generate_content(all_items, count=15):
     tags = random.sample(KEYWORDS, min(5, len(KEYWORDS)))
     md_content += f"**热门标签**：{'、'.join(tags)}\n\n"
     
-    md_content += "## 最新归档 (Latest Archives)\n\n"
+    md_content += "## 最新更新 (Recent Updates)\n\n"
     
-    # Split items into articles and referrals
-    articles = [i for i in selected_items if i.get('type') == 'article']
-    referrals = [i for i in selected_items if i.get('type') != 'article']
-    
-    # List articles first (high quality content)
-    if articles:
-        for item in articles:
+    # List articles
+    if display_articles:
+        for item in display_articles:
             title = generate_title(item)
-            # Link to LOCAL archive file if available, otherwise direct link
-            link_url = item.get('local_path', item['url'])
+            link_url = item.get('local_path', item.get('url', '#'))
+            
+            # Date prefix
+            date_str = item.get('date').strftime("%Y-%m-%d") if item.get('date') else ""
             
             md_content += f"### 📄 [{title}]({link_url})\n"
+            if date_str:
+                md_content += f"*{date_str}* - "
+            
             # Add a small snippet if available
             if item.get('description'):
                 # Take first 100 chars
                 snippet = re.sub(r'<[^>]+>', '', item['description'])[:100] + "..."
-                md_content += f"> {snippet}\n\n"
+                md_content += f"{snippet}\n\n"
             else:
-                md_content += f"> 点击查看归档全文...\n\n"
+                md_content += f"点击查看归档全文...\n\n"
+    else:
+        md_content += "暂无更新。\n\n"
 
     md_content += "## 推荐资源 (Recommended Resources)\n\n"
     
-    for item in referrals:
-        title = generate_title(item)
-        emoji = random.choice(["🚀", "⚡", "🌐", "🔥", "💡", "📝", "⭐", "💎"])
-        
-        md_content += f"### {emoji} [{title}]({item['url']})\n"
-        
-        desc_templates = [
-            f"点击上方链接访问 {item['name']} 官网，获取最新优惠。",
-            f"{item['name']} 是一款性价比极高的加速服务，支持多平台使用。",
-            f"晚高峰 4K 视频秒开，{item['name']} 值得一试。",
-            f"注册即可免费试用，{item['name']} 提供稳定高速的节点。",
-            "专线接入，超低延迟，游戏/视频两不误。"
-        ]
-        md_content += f"{random.choice(desc_templates)}\n\n"
+    if referrals:
+        # Limit referrals to prevent clutter
+        display_referrals = random.sample(referrals, min(10, len(referrals)))
+        for item in display_referrals:
+            title = generate_title(item)
+            emoji = random.choice(["🚀", "⚡", "🌐", "🔥", "💡", "📝", "⭐", "💎"])
+            
+            md_content += f"### {emoji} [{title}]({item['url']})\n"
+            
+            desc_templates = [
+                f"点击上方链接访问 {item['name']} 官网，获取最新优惠。",
+                f"{item['name']} 是一款性价比极高的加速服务，支持多平台使用。",
+                f"晚高峰 4K 视频秒开，{item['name']} 值得一试。",
+                f"注册即可免费试用，{item['name']} 提供稳定高速的节点。",
+                "专线接入，超低延迟，游戏/视频两不误。"
+            ]
+            md_content += f"{random.choice(desc_templates)}\n\n"
     
+    # Archive Links Section
     md_content += "---\n"
+    md_content += "## 历史归档 (History)\n\n"
+    
+    # Group by Year/Month
+    archive_groups = {}
+    for item in sorted_articles:
+        if item.get('date'):
+            key = item['date'].strftime("%Y年%m月")
+            path = f"archives/{item['date'].strftime('%Y/%m')}/"
+            archive_groups[key] = path
+            
+    for key, path in archive_groups.items():
+         md_content += f"- [{key} 归档]({path})\n"
+    
+    md_content += "\n---\n"
     md_content += "### 免责声明\n"
     md_content += "本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。\n\n"
     md_content += f"*自动更新于 {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n"
@@ -309,14 +408,19 @@ def generate_content(all_items, count=15):
 def main():
     print("开始生成内容...")
     
-    # 1. 获取所有站点
+    # 1. Scan local archives first
+    print("Scanning local archives...")
+    existing_archives = scan_local_archives()
+    print(f"Found {len(existing_archives)} existing archived articles.")
+
+    # 2. 获取所有站点
     configs = get_all_site_configs()
     if not configs:
         print("No site configs found.")
         return
 
-    # 2. 随机选择一个站点
-    selected_items = []
+    # 3. 随机选择一个站点抓取新内容
+    new_items = []
     
     random.shuffle(configs)
     
@@ -324,17 +428,18 @@ def main():
         print(f"Trying site: {config.get('name', config['id'])}")
         items = fetch_site_data(config)
         if items:
-            selected_items = items
+            new_items = items
             print(f"Successfully fetched {len(items)} items from {config['id']}")
             break
         print(f"No items found for {config['id']}, trying next...")
     
-    if not selected_items:
-        print("Failed to fetch content from any site.")
+    # Note: Even if new_items is empty, we still want to regenerate README with existing archives
+    if not new_items and not existing_archives:
+        print("No content found (neither new nor archived).")
         return
 
-    # 3. 生成内容
-    content = generate_content(selected_items, count=20)
+    # 4. 生成内容 (Combine new and old)
+    content = generate_content(new_items, existing_archives, count=50)
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(content)
