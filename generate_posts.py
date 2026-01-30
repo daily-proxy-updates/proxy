@@ -4,7 +4,7 @@ import random
 import datetime
 import requests
 import xml.etree.ElementTree as ET
-from urllib.parse import urlparse
+from urllib.parse import urlparse, quote
 
 # 配置
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -42,10 +42,15 @@ def fetch_feed_posts(proxy_host):
         if response.status_code == 200:
             # Parse XML
             try:
-                root = ET.fromstring(response.content)
-            except ET.ParseError:
-                # Try with utf-8 decoding if direct parse fails
-                root = ET.fromstring(response.content.decode('utf-8'))
+                content = response.content
+                try:
+                    text = content.decode('utf-8')
+                except UnicodeDecodeError:
+                    text = content.decode('gbk', errors='ignore')
+                root = ET.fromstring(text)
+            except ET.ParseError as e:
+                print(f"XML Parse Error for {proxy_host}: {e}")
+                return []
                 
             posts = []
             # Standard RSS 2.0: channel -> item
@@ -77,70 +82,78 @@ def fetch_feed_posts(proxy_host):
         print(f"Error fetching feed for {proxy_host}: {e}")
     return []
 
-def load_sites_and_links():
-    """读取所有站点配置和对应的链接文件"""
-    sites_data = []
-    
+def get_all_site_configs():
+    """获取所有站点配置"""
+    configs = []
     if not os.path.exists(SITES_DIR):
         print(f"Error: Sites directory {SITES_DIR} not found.")
         return []
 
-    # 获取所有站点配置文件
     site_files = [f for f in os.listdir(SITES_DIR) if f.endswith('.json') and not f.endswith('_links.json')]
     
     for site_file in site_files:
-        site_id = site_file.replace('.json', '')
-        site_path = os.path.join(SITES_DIR, site_file)
-        links_path = os.path.join(SITES_DIR, f"{site_id}_links.json")
-        
         try:
+            site_path = os.path.join(SITES_DIR, site_file)
             with open(site_path, 'r', encoding='utf-8') as f:
-                site_config = json.load(f)
-            
-            # 收集该站点的链接
-            valid_links = []
-            
-            # 1. 如果有 links 文件，读取推荐链接
-            if os.path.exists(links_path):
-                with open(links_path, 'r', encoding='utf-8') as f:
-                    links = json.load(f)
-                
-                for kw, url in links.items():
-                    if url.startswith('http'):
-                        valid_links.append({
-                            'name': kw, # 原始关键词
-                            'url': url,
-                            'type': 'referral'
-                        })
-            
-            # 2. 将站点本身也作为一个推荐（如果是镜像站）
-            if site_config.get('proxyHost'):
-                proxy_host = site_config['proxyHost']
-                if isinstance(proxy_host, list):
-                    proxy_host = proxy_host[0]
-                
-                # Fetch RSS feed posts
-                feed_posts = fetch_feed_posts(proxy_host)
-                if feed_posts:
-                    valid_links.extend(feed_posts)
-                
-                # Also add the main site link
-                valid_links.append({
-                    'name': site_config.get('name', site_id),
-                    'url': f"https://{proxy_host}",
-                    'type': 'site'
-                })
-
-            if valid_links:
-                sites_data.append({
-                    'site_name': site_config.get('name', site_id),
-                    'links': valid_links
-                })
-                
+                config = json.load(f)
+                # Ensure we have the filename id
+                config['id'] = site_file.replace('.json', '')
+                configs.append(config)
         except Exception as e:
-            print(f"Error processing {site_id}: {e}")
+            print(f"Error loading config {site_file}: {e}")
+            
+    return configs
+
+def fetch_site_data(site_config):
+    """获取单个站点的数据（文章和链接）"""
+    site_id = site_config.get('id')
+    proxy_host = site_config.get('proxyHost')
+    
+    if not proxy_host:
+        return []
         
-    return sites_data
+    if isinstance(proxy_host, list):
+        proxy_host = proxy_host[0]
+        
+    valid_links = []
+    
+    # 1. 获取 RSS 文章 (Sub-pages)
+    feed_posts = fetch_feed_posts(proxy_host)
+    if feed_posts:
+        valid_links.extend(feed_posts)
+        
+    # 2. 读取并转换推广链接 (Redirects)
+    links_path = os.path.join(SITES_DIR, f"{site_id}_links.json")
+    if os.path.exists(links_path):
+        try:
+            with open(links_path, 'r', encoding='utf-8') as f:
+                links = json.load(f)
+            
+            for kw, url in links.items():
+                if url.startswith('http'):
+                    # Convert to local redirect link: https://site.com/keyword
+                    # Server handles this via dynamicLinks
+                    # We assume server uses decoded path matching, so we can use encoded or decoded.
+                    # Standard URL should be encoded.
+                    encoded_kw = quote(kw)
+                    local_url = f"https://{proxy_host}/{encoded_kw}"
+                    
+                    valid_links.append({
+                        'name': kw,
+                        'url': local_url,
+                        'type': 'referral'
+                    })
+        except Exception as e:
+            print(f"Error loading links for {site_id}: {e}")
+
+    # 3. 添加站点主页
+    valid_links.append({
+        'name': site_config.get('name', site_id),
+        'url': f"https://{proxy_host}",
+        'type': 'site'
+    })
+    
+    return valid_links
 
 def generate_title(item):
     """根据链接类型生成标题"""
@@ -156,19 +169,13 @@ def generate_title(item):
     template = random.choice(TITLE_TEMPLATES)
     return template.format(name=name)
 
-def generate_content(sites_data, count=15):
+def generate_content(all_items, count=15):
     """生成 Markdown 内容"""
-    all_items = []
-    
-    # 展平所有链接
-    for site in sites_data:
-        for link in site['links']:
-            all_items.append(link)
-    
     if not all_items:
         return "No articles found."
 
     # 随机选择指定数量的文章
+    # Ensure we don't error if count > len
     selected_items = random.sample(all_items, min(count, len(all_items)))
     
     # 生成 Markdown
@@ -218,8 +225,34 @@ def generate_content(sites_data, count=15):
 
 def main():
     print("开始生成内容...")
-    sites = load_sites_and_links()
-    content = generate_content(sites, count=random.randint(10, 20))
+    
+    # 1. 获取所有站点
+    configs = get_all_site_configs()
+    if not configs:
+        print("No site configs found.")
+        return
+
+    # 2. 随机选择一个站点 (尝试最多3次，以防选中的站点没有数据)
+    selected_items = []
+    
+    # Shuffle to pick randomly
+    random.shuffle(configs)
+    
+    for config in configs:
+        print(f"Trying site: {config.get('name', config['id'])}")
+        items = fetch_site_data(config)
+        if items:
+            selected_items = items
+            print(f"Successfully fetched {len(items)} items from {config['id']}")
+            break
+        print(f"No items found for {config['id']}, trying next...")
+    
+    if not selected_items:
+        print("Failed to fetch content from any site.")
+        return
+
+    # 3. 生成内容
+    content = generate_content(selected_items, count=random.randint(10, 20))
     
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
         f.write(content)

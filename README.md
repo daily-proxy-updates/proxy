@@ -2,76 +2,60 @@
 
 > 本文每日自动更新，整理了最新的网络加速资源、机场推荐与科学上网技巧，助你畅游互联网。
 
-**热门标签**：机场推荐、梯子推荐、VPN推荐、翻墙软件、IPLC专线
+**热门标签**：翻墙软件、Trojan、VPN推荐、机场推荐、科学上网
 
 ## 精选资源推荐
 
-### ⚡ [2024 最佳机场推荐：Milkcat 评测](https://dash.milkcat.io/#/register?code=iHU7gF4U)
+### 🌐 [2024 最佳机场推荐：Jc/bjaff 评测](https://kerrynotes.blog/jc/bjaff)
 
-晚高峰 4K 视频秒开，milkcat 值得一试。
+注册即可免费试用，jc/bjaff 提供稳定高速的节点。
 
-### 💎 [稳定好用的梯子推荐：Fastlink](https://flafflnk01.flaff9.cc/auth/register?code=yjb7nmJk)
-
-点击上方链接访问 fastlink 官网，获取最新优惠。
-
-### 💎 [便宜机场推荐：Aldin 性价比之选](https://www.avatargpt.xyz/register?aff=wwBDE0Xxhm)
-
-注册即可免费试用，aldin 提供稳定高速的节点。
-
-### ⚡ [Jc/qytaff - 解锁流媒体，晚高峰不卡顿](https://ivt02.qytaff.cc/register?aff=iZ0TL1WU)
-
-点击上方链接访问 jc/qytaff 官网，获取最新优惠。
-
-### 🚀 [安卓/iOS/Mac/Windows 通用机场推荐：1yt](https://inv02.1ytaff.com/register?aff=D0C0BdDK)
-
-点击上方链接访问 1yt 官网，获取最新优惠。
-
-### 🌐 [2024 最佳机场推荐：Ofonet 评测](https://speedtest.ofox.lat/#/register?code=4jZ3gZ27)
+### ⚡ [Go/sdm 官网地址与最新优惠码](https://kerrynotes.blog/go/sdm)
 
 专线接入，超低延迟，游戏/视频两不误。
 
-### 📝 [2024 最佳机场推荐：Fox 评测](https://inv03.ffaff.cc/register?aff=NXdZFvOh)
+### 🔥 [2024 最佳机场推荐：Go/vultrmatch 评测](https://kerrynotes.blog/go/vultrmatch)
 
-晚高峰 4K 视频秒开，fox 值得一试。
+go/vultrmatch 是一款性价比极高的加速服务，支持多平台使用。
 
-### 🔥 [便宜机场推荐：Guatizi 性价比之选](https://guatizi.mom)
+### 📝 [1yt 官网地址与最新优惠码](https://kerrynotes.blog/1yt)
 
-注册即可免费试用，guatizi 提供稳定高速的节点。
+晚高峰 4K 视频秒开，1yt 值得一试。
 
-### 🌐 [Google AI (Gemini) Pro vs. Ultra：谁才是你的最佳 AI 助手？深度对比与选购指南](https://oldtang.dyt.one/14529.html)
+### 💡 [SMS-Activate宣布停止服务](https://kerrynotes.blog/sms-activate-shut-down/)
 
-深度解析，带你了解更多。
+点击上方链接查看完整教程/评测。
 
-### 💎 [Yangfan 怎么样？最新使用体验报告](https://yftg1.com/register?code=LaKg1G5H)
+### 🌐 [Flybird 怎么样？最新使用体验报告](https://kerrynotes.blog/flybird)
 
-注册即可免费试用，yangfan 提供稳定高速的节点。
+注册即可免费试用，flybird 提供稳定高速的节点。
 
-### 🚀 [便宜机场推荐：Oldtang 性价比之选](https://oldtang.dyt.one)
+### 🔥 [网站陷入了人机验证的死循环](https://kerrynotes.blog/bot-verifying-loop/)
 
-点击上方链接访问 OldTang 官网，获取最新优惠。
+点击阅读全文，了解更多详细信息。
 
-### 📝 [便宜机场推荐：Naiun 性价比之选](https://www.v2ny.me?path=register&code=d9dgNGma)
+### 🌐 [便宜机场推荐：Jc/dtaff 性价比之选](https://kerrynotes.blog/jc/dtaff)
 
-点击上方链接访问 naiun 官网，获取最新优惠。
+点击上方链接访问 jc/dtaff 官网，获取最新优惠。
 
-### 💎 [2024 最佳机场推荐：Bywave 评测](https://u.by.ltd/aff.php?aff=29685)
+### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Jc/ts3](https://kerrynotes.blog/jc/ts3)
+
+注册即可免费试用，jc/ts3 提供稳定高速的节点。
+
+### 💎 [便宜机场推荐：Jc/xxf 性价比之选](https://kerrynotes.blog/jc/xxf)
+
+jc/xxf 是一款性价比极高的加速服务，支持多平台使用。
+
+### 🔥 [Jc/xjj 官网地址与最新优惠码](https://kerrynotes.blog/jc/xjj)
+
+注册即可免费试用，jc/xjj 提供稳定高速的节点。
+
+### ⭐ [2024 最佳机场推荐：Dgy 评测](https://kerrynotes.blog/dgy)
 
 专线接入，超低延迟，游戏/视频两不误。
-
-### 🚀 [2024 最佳机场推荐：Lightspeed 评测](https://vip01.lightspeed.club/#/?code=dfe9IIjR)
-
-注册即可免费试用，lightspeed 提供稳定高速的节点。
-
-### 🌐 [稳定好用的梯子推荐：Go/vultrvps](https://www.vultr.com/?ref=9796856-9J)
-
-晚高峰 4K 视频秒开，go/vultrvps 值得一试。
-
-### 📝 [Jc/ggaff 机场推荐 - 高速稳定 4K 秒开](https://www.dginv.click/#/register?code=tJwXN8Mq)
-
-晚高峰 4K 视频秒开，jc/ggaff 值得一试。
 
 ---
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-01-30 22:34:06*
+*自动更新于 2026-01-30 22:41:15*
