@@ -19,17 +19,19 @@ jobs:
       with:
         python-version: '3.9'
         
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
     - name: Generate content
       run: |
         python generate_posts.py
-        # 将生成的 README.md 移动到根目录（如果需要发布到主页）
-        # 或者保留在子目录，视需求而定。通常作为主页展示会放根目录。
-        # 这里假设我们就在 github-publisher 目录下生成，然后提交
         
     - name: Commit and push changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add README.md
+        git add README.md archives/
         git commit -m "Auto update posts $(date +'%Y-%m-%d')" || exit 0
         git push
