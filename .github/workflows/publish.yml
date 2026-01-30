@@ -1,0 +1,35 @@
+name: Auto Publish Posts
+
+on:
+  schedule:
+    # 每天北京时间上午 10 点 (UTC 2:00) 运行
+    - cron: '0 2 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+        
+    - name: Generate content
+      run: |
+        python generate_posts.py
+        # 将生成的 README.md 移动到根目录（如果需要发布到主页）
+        # 或者保留在子目录，视需求而定。通常作为主页展示会放根目录。
+        # 这里假设我们就在 github-publisher 目录下生成，然后提交
+        
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add README.md
+        git commit -m "Auto update posts $(date +'%Y-%m-%d')" || exit 0
+        git push
