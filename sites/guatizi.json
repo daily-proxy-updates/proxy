@@ -1,0 +1,10 @@
+{
+  "name": "guatizi",
+  "target": "https://guatizi.com",
+  "proxyHost": "guatizi.mom",
+  "port": 3002,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "showMirrorWarning": false
+}

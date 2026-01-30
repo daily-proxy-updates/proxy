@@ -1,0 +1,3 @@
+# requirements.txt
+# Standard library imports are used in generate_posts.py
+# If you add external libraries later (e.g. requests, jinja2), list them here.

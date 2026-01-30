@@ -1,0 +1,13 @@
+{
+  "name": "BuldPrice",
+  "target": "https://www.duyaoss.com",
+  "proxyHost": "buldprice.pw",
+  "port": 3007,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+      "毒药": "BuldPrice",
+      "DuyaoSS-": "BuldPrice-"
+    }
+}

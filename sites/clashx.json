@@ -1,0 +1,17 @@
+{
+  "name": "clashx",
+  "target": "https://clashx.pro",
+  "proxyHost": "clashx.blog",
+  "port": 3003,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+    "ca-pub-3818033429018049": "ca-pub-1504667891266512",
+    "jeQi": "hLjt"
+  },
+  "domainMappings": {
+    "go7.uk": "SELF"
+  },
+  "adsTxt": "google.com, pub-1504667891266512, DIRECT, f08c47fec0942fa0"
+}
