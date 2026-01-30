@@ -2,6 +2,9 @@ import os
 import json
 import random
 import datetime
+import requests
+import xml.etree.ElementTree as ET
+from urllib.parse import urlparse
 
 # 配置
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -26,6 +29,53 @@ TITLE_TEMPLATES = [
     "{name} 官网地址与最新优惠码",
     "安卓/iOS/Mac/Windows 通用机场推荐：{name}"
 ]
+
+def fetch_feed_posts(proxy_host):
+    """Fetch posts from the site's RSS feed"""
+    # Try different schemes if https fails, but default to https
+    url = f"https://{proxy_host}/feed"
+    print(f"Fetching feed from: {url}")
+    try:
+        response = requests.get(url, timeout=10, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        })
+        if response.status_code == 200:
+            # Parse XML
+            try:
+                root = ET.fromstring(response.content)
+            except ET.ParseError:
+                # Try with utf-8 decoding if direct parse fails
+                root = ET.fromstring(response.content.decode('utf-8'))
+                
+            posts = []
+            # Standard RSS 2.0: channel -> item
+            # Also handle Atom if needed, but WordPress uses RSS 2.0 by default at /feed
+            for item in root.findall('./channel/item'):
+                title = item.find('title')
+                link = item.find('link')
+                
+                if title is not None and link is not None:
+                    title_text = title.text
+                    link_text = link.text
+                    
+                    # Ensure link uses proxy_host
+                    if link_text:
+                        parsed = urlparse(link_text)
+                        # Reconstruct url with proxy_host
+                        new_link = link_text.replace(parsed.netloc, proxy_host)
+                        
+                        posts.append({
+                            'name': title_text, # Use title as name
+                            'url': new_link,
+                            'type': 'article'
+                        })
+            print(f"Found {len(posts)} posts for {proxy_host}")
+            return posts
+        else:
+            print(f"Failed to fetch feed for {proxy_host}: Status {response.status_code}")
+    except Exception as e:
+        print(f"Error fetching feed for {proxy_host}: {e}")
+    return []
 
 def load_sites_and_links():
     """读取所有站点配置和对应的链接文件"""
@@ -65,9 +115,19 @@ def load_sites_and_links():
             
             # 2. 将站点本身也作为一个推荐（如果是镜像站）
             if site_config.get('proxyHost'):
+                proxy_host = site_config['proxyHost']
+                if isinstance(proxy_host, list):
+                    proxy_host = proxy_host[0]
+                
+                # Fetch RSS feed posts
+                feed_posts = fetch_feed_posts(proxy_host)
+                if feed_posts:
+                    valid_links.extend(feed_posts)
+                
+                # Also add the main site link
                 valid_links.append({
                     'name': site_config.get('name', site_id),
-                    'url': f"https://{site_config['proxyHost']}",
+                    'url': f"https://{proxy_host}",
                     'type': 'site'
                 })
 
@@ -85,6 +145,11 @@ def load_sites_and_links():
 def generate_title(item):
     """根据链接类型生成标题"""
     name = item['name']
+    
+    # 如果是文章类型的链接，直接使用文章标题
+    if item.get('type') == 'article':
+        return name
+        
     # 首字母大写
     name = name.capitalize() if name else "Unknown"
     
@@ -125,13 +190,23 @@ def generate_content(sites_data, count=15):
         md_content += f"### {emoji} [{title}]({item['url']})\n\n"
         
         # 生成简短描述
-        desc_templates = [
-            f"点击上方链接访问 {item['name']} 官网，获取最新优惠。",
-            f"{item['name']} 是一款性价比极高的加速服务，支持多平台使用。",
-            f"晚高峰 4K 视频秒开，{item['name']} 值得一试。",
-            f"注册即可免费试用，{item['name']} 提供稳定高速的节点。",
-            "专线接入，超低延迟，游戏/视频两不误。"
-        ]
+        if item.get('type') == 'article':
+            # 对于文章，生成简单的阅读引导
+            desc_templates = [
+                "点击阅读全文，了解更多详细信息。",
+                "最新更新内容，不容错过。",
+                "干货满满，建议收藏阅读。",
+                "深度解析，带你了解更多。",
+                "点击上方链接查看完整教程/评测。"
+            ]
+        else:
+            desc_templates = [
+                f"点击上方链接访问 {item['name']} 官网，获取最新优惠。",
+                f"{item['name']} 是一款性价比极高的加速服务，支持多平台使用。",
+                f"晚高峰 4K 视频秒开，{item['name']} 值得一试。",
+                f"注册即可免费试用，{item['name']} 提供稳定高速的节点。",
+                "专线接入，超低延迟，游戏/视频两不误。"
+            ]
         md_content += f"{random.choice(desc_templates)}\n\n"
     
     md_content += "---\n"
