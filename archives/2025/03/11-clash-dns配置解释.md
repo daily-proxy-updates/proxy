@@ -13,4 +13,4 @@ Clash DNS 配置示例 Clash DNS 配置示例 hosts: mtalk.google.com: 108.177.1
 [点击此处阅读完整文章](https://jichanggo.dyt.one/clashdns/?utm_source=rss&utm_medium=rss&utm_campaign=clashdns)
 
 ---
-*本文章由 [Mirror Proxy](https://github.com/daily-proxy-updates/proxy) 自动归档，原始内容来自 [jichanggo.dyt.one](https://jichanggo.dyt.one)*
+*本文章自动归档，原始内容来自 [jichanggo.dyt.one](https://jichanggo.dyt.one)*

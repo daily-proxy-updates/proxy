@@ -82,8 +82,9 @@ def fetch_feed_posts(proxy_host):
                     try:
                         if date_text:
                             dt = parsedate_to_datetime(date_text)
-                            # Convert to naive datetime for consistency if needed, but keeping tz info is fine
-                            # For file system, we might want local time or UTC. Let's stick to UTC or input time.
+                            # Convert to naive datetime for consistency
+                            if dt.tzinfo is not None:
+                                dt = dt.replace(tzinfo=None)
                         else:
                             dt = datetime.datetime.now()
                     except Exception as e:
@@ -148,7 +149,7 @@ def save_article_to_archive(item, proxy_host):
     content += f"## 阅读全文\n\n"
     content += f"[点击此处阅读完整文章]({item['url']})\n\n"
     content += f"---\n"
-    content += f"*本文章由 [Mirror Proxy](https://github.com/daily-proxy-updates/proxy) 自动归档，原始内容来自 [{proxy_host}](https://{proxy_host})*\n"
+    content += f"*本文章自动归档，原始内容来自 [{proxy_host}](https://{proxy_host})*\n"
     
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(content)

@@ -13,4 +13,4 @@ anytls: https://github.com/anytls/anytls-go 解决了tls in tls的问题。是�
 [点击此处阅读完整文章](https://jichanggo.dyt.one/anytls/?utm_source=rss&utm_medium=rss&utm_campaign=anytls)
 
 ---
-*本文章由 [Mirror Proxy](https://github.com/daily-proxy-updates/proxy) 自动归档，原始内容来自 [jichanggo.dyt.one](https://jichanggo.dyt.one)*
+*本文章自动归档，原始内容来自 [jichanggo.dyt.one](https://jichanggo.dyt.one)*
