@@ -1,0 +1,18 @@
+{
+  "name": "ErMao",
+  "target": "https://www.ermao.net",
+  "proxyHost": ["ermao.cfd", "www.ermao.cfd"],
+  "port": 3005,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "pathTargets": {
+    "/images/blog": "https://image.ermao.net/images/blog",
+    "/images/post": "https://image.ermao.net/images/post"
+  },
+  "replacements": {
+    "www.ermao.net": "ermao.cfd",
+    "ermao.net": "ermao.cfd",
+    "image.ermao.net": "ermao.cfd"
+  }
+}

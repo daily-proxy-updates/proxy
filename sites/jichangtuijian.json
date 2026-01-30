@@ -1,0 +1,9 @@
+{
+  "name": "JiChangTuiJian",
+  "target": "https://jichangtuijian.com",
+  "proxyHost": "jichangtuijian.cv",
+  "port": 3001,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow"
+}

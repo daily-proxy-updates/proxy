@@ -1,0 +1,15 @@
+{
+  "name": "OldTang",
+  "target": "https://oldtang.com",
+  "proxyHost": "oldtang.dyt.one",
+  "port": 3009,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+    "https://oldtang.com": "https://oldtang.dyt.one",
+    "http://oldtang.com": "http://oldtang.dyt.one",
+    "//oldtang.com": "//oldtang.dyt.one",
+    "www.oldtang.com": "oldtang.dyt.one"
+  }
+}

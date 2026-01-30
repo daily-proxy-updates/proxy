@@ -1,0 +1,13 @@
+{
+  "name": "LaoLiuBlog",
+  "target": "https://www.laoliublog.cn",
+  "proxyHost": "laoliublog.dyt.one",
+  "port": 3008,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+    "www.laoliublog.cn": "laoliublog.dyt.one",
+    "laoliublog.cn": "laoliublog.dyt.one"
+  }
+}
