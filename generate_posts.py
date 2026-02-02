@@ -422,17 +422,33 @@ def main():
 
     # 3. 随机选择一个站点抓取新内容
     new_items = []
+    fallback_items = [] # Store items that have no articles but valid site info
     
     random.shuffle(configs)
     
     for config in configs:
         print(f"Trying site: {config.get('name', config['id'])}")
         items = fetch_site_data(config)
+        
         if items:
-            new_items = items
-            print(f"Successfully fetched {len(items)} items from {config['id']}")
-            break
-        print(f"No items found for {config['id']}, trying next...")
+            # Check if we have actual articles
+            has_articles = any(item.get('type') == 'article' for item in items)
+            
+            if has_articles:
+                new_items = items
+                print(f"Successfully fetched {len(items)} items (with articles) from {config['id']}")
+                break
+            else:
+                print(f"Fetched items from {config['id']} but no articles found. Storing as fallback.")
+                if not fallback_items:
+                    fallback_items = items
+        else:
+            print(f"No items found for {config['id']}, trying next...")
+            
+    # If no site had articles, use the fallback (first site that returned something)
+    if not new_items and fallback_items:
+        print("No articles found in any checked site. Using fallback content.")
+        new_items = fallback_items
     
     # Note: Even if new_items is empty, we still want to regenerate README with existing archives
     if not new_items and not existing_archives:
