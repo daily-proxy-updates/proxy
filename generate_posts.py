@@ -97,6 +97,10 @@ def fetch_feed_posts(proxy_host):
                         # Reconstruct url with proxy_host
                         new_link = link_text.replace(parsed.netloc, proxy_host)
                         
+                        # Also replace domain in description if present
+                        if desc_text and parsed.netloc:
+                            desc_text = desc_text.replace(parsed.netloc, proxy_host)
+                        
                         posts.append({
                             'name': title_text, # Use title as name
                             'url': new_link,
@@ -143,10 +147,6 @@ def save_article_to_archive(item, proxy_host):
     if item.get('description'):
         # Clean up description
         desc = item['description']
-        # Remove "The post ... first appeared on ..." footer if present
-        desc = re.sub(r'<p>The post .*? first appeared on .*?</p>', '', desc, flags=re.IGNORECASE | re.DOTALL)
-        # Remove any other common footer patterns
-        desc = re.sub(r'The post .*? first appeared on .*?\.', '', desc, flags=re.IGNORECASE)
         content += f"## 摘要\n\n{desc}\n\n"
     
     content += f"---\n\n"
