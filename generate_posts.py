@@ -141,8 +141,12 @@ def save_article_to_archive(item, proxy_host):
     content += f"**发布时间**: {dt.strftime('%Y-%m-%d %H:%M')}\n\n"
     
     if item.get('description'):
-        # Clean up description (simple tag stripping if needed, but raw is okay for now)
+        # Clean up description
         desc = item['description']
+        # Remove "The post ... first appeared on ..." footer if present
+        desc = re.sub(r'<p>The post .*? first appeared on .*?</p>', '', desc, flags=re.IGNORECASE | re.DOTALL)
+        # Remove any other common footer patterns
+        desc = re.sub(r'The post .*? first appeared on .*?\.', '', desc, flags=re.IGNORECASE)
         content += f"## 摘要\n\n{desc}\n\n"
     
     content += f"---\n\n"
