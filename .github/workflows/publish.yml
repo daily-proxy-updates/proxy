@@ -6,6 +6,9 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch: # 允许手动触发
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,6 +16,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+      with:
+        persist-credentials: true # 确保 token 被保留用于 push
       
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -29,6 +34,7 @@ jobs:
       run: |
         ls -R
         python --version
+        pip list
 
     - name: Generate content
       env:
