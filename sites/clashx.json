@@ -13,5 +13,6 @@
   "domainMappings": {
     "go7.uk": "SELF"
   },
-  "adsTxt": "google.com, pub-1504667891266512, DIRECT, f08c47fec0942fa0"
+  "adsTxt": "google.com, pub-1504667891266512, DIRECT, f08c47fec0942fa0",
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-XCDNZMKZ1E\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-XCDNZMKZ1E');\n</script>"
 }

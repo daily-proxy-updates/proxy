@@ -1,0 +1,10 @@
+{
+  "name": "zrblogcom",
+  "target": "https://www.laoliuceping.com",
+  "proxyHost": "laoliuceping.yss.best",
+  "port": 3021,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-GP79P4XVK9\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-GP79P4XVK9');\n</script>"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "TuijianVPN",
+  "target": "https://tuijianvpn.com",
+  "proxyHost": "tuijianvpn.dyt.one",
+  "port": 3010,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+    "tuijianvpn.com": "tuijianvpn.dyt.one",
+    "www.tuijianvpn.com": "tuijianvpn.dyt.one"
+  },
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-ZQ0H1VM0X3\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-ZQ0H1VM0X3');\n</script>"
+}

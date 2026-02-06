@@ -9,5 +9,6 @@
   "replacements": {
     "www.laoliublog.cn": "laoliublog.dyt.one",
     "laoliublog.cn": "laoliublog.dyt.one"
-  }
+  },
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-99D1CRQESV\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-99D1CRQESV');\n</script>"
 }

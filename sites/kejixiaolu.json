@@ -1,0 +1,14 @@
+{
+  "name": "KeJiXiaoLu",
+  "target": "https://www.kejixiaolu.com",
+  "proxyHost": "kejixiaolu.dyt.one",
+  "port": 3012,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+    "kejixiaolu.com": "kejixiaolu.dyt.one",
+    "www.kejixiaolu.com": "kejixiaolu.dyt.one"
+  },
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-CYYPQY9BJL\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-CYYPQY9BJL');\n</script>"
+}

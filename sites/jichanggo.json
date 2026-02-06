@@ -9,5 +9,6 @@
   "replacements": {
     "jichanggo.com": "jichanggo.dyt.one",
     "<head>": "<head><meta name=\"google-site-verification\" content=\"RBFf80p5k8TFcImMADEmDeZDDP34rPFo48QykGi9rvg\" />"
-  }
+  },
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-JDEJ0TTCHP\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-JDEJ0TTCHP');\n</script>"
 }

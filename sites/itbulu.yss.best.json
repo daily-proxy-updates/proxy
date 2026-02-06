@@ -1,0 +1,21 @@
+{
+  "name": "itbulu",
+  "target": "https://www.itbulu.com/",
+  "proxyHost": "itbulu.yss.best",
+  "domainMappings": {
+    "images.itbulu.com": "SELF"
+  },
+  "pathTargets": {
+    "/banner/": "https://images.itbulu.com/banner/",
+    "^/\\d{4}/": "https://images.itbulu.com/"
+  },
+  "port": 3026,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "forceReferer": "https://www.itbulu.com/",
+  "customInject": "<meta name=\"referrer\" content=\"no-referrer\">\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5DRRET35TY\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5DRRET35TY');\n</script>",
+  "replacements": {
+    "copyrightpro.js": "copyrightpro_disabled.js"
+  }
+}

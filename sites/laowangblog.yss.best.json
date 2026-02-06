@@ -1,0 +1,10 @@
+{
+  "name": "laowangblog",
+  "target": "https://laowangblog.com",
+  "proxyHost": "laowangblog.yss.best",
+  "port": 3025,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-3LYNZJX8ZW\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-3LYNZJX8ZW');\n</script>"
+}

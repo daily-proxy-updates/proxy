@@ -1,0 +1,14 @@
+{
+  "name": "SSRV2Ray",
+  "target": "https://ssrv2ray.xyz",
+  "proxyHost": "ssrv2ray.dyt.one",
+  "port": 3013,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+    "ssrv2ray.xyz": "ssrv2ray.dyt.one",
+    "www.ssrv2ray.xyz": "ssrv2ray.dyt.one"
+  },
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-43BT17LLMJ\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-43BT17LLMJ');\n</script>"
+}

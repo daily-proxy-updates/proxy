@@ -1,0 +1,21 @@
+{
+  "name": "LaoZuo",
+  "target": "https://www.laozuo.org",
+  "proxyHost": "laozuo.dyt.one",
+  "port": 3015,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "domainMappings": {
+    "images.laozuo.org": "SELF"
+  },
+  "pathTargets": {
+    "/wp-content/uploads/": "https://images.laozuo.org/wp-content/uploads/",
+    "/banner/": "https://images.laozuo.org/banner/"
+  },
+  "replacements": {
+    "copyrightpro.js": "copyrightpro_disabled.js"
+  },
+  "forceReferer": "https://www.laozuo.org/",
+  "customInject": "<meta name=\"referrer\" content=\"no-referrer\">\n<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-5J3W1GB8XL\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-5J3W1GB8XL');\n</script>"
+}

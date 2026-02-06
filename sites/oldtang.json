@@ -11,5 +11,6 @@
     "http://oldtang.com": "http://oldtang.dyt.one",
     "//oldtang.com": "//oldtang.dyt.one",
     "www.oldtang.com": "oldtang.dyt.one"
-  }
+  },
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-WKDJE56Y7M\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-WKDJE56Y7M');\n</script>"
 }

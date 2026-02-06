@@ -1,0 +1,14 @@
+{
+  "name": "JichangCeSu",
+  "target": "https://jichangcesu.com",
+  "proxyHost": "jichangcesu.dyt.one",
+  "port": 3014,
+  "enableIndexingHeader": true,
+  "enableIndexingMeta": true,
+  "robotsTag": "index, follow",
+  "replacements": {
+    "jichangcesu.com": "jichangcesu.dyt.one",
+    "www.jichangcesu.com": "jichangcesu.dyt.one"
+  },
+  "customInject": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-NV71GJB6ZE\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-NV71GJB6ZE');\n</script>"
+}
