@@ -5,7 +5,7 @@
 ## 摘要
 
 <p>Gemini 生成的图片有水印，有一款开源工具可以去掉它们。我现在的文章特色图都是用 Gemini 生成的，但 [&#8230;]</p>
-<p>&lt;p&gt;The post <a rel="nofollow" href="https://kerrynotes.com/remove-gemini-watermark/">去掉 Gemini 生成的图片水印</a> first appeared on <a rel="nofollow" href="https://kerrynotes.com">Kerry的学习笔记</a>.&lt;/p&gt;</p>
+<p>&lt;p&gt;The post <a rel="nofollow" href="https://kerrynotes.blog/remove-gemini-watermark/">去掉 Gemini 生成的图片水印</a> first appeared on <a rel="nofollow" href="https://kerrynotes.blog">Kerry的学习笔记</a>.&lt;/p&gt;</p>
 
 
 ---
