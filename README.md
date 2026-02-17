@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-02-16)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-02-17)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：科学上网、VPN推荐、稳定机场、Shadowsocks、4K秒开
+**热门标签**：高速节点、Clash节点、IPLC专线、便宜机场、4K秒开
 
 ## 最新更新 (Recent Updates)
 
@@ -108,9 +108,8 @@
 ### 📄 [2026 最新搬瓦工限量版套餐预测：MiniChicken/MiniBox/MegaBox/The Plan 等限量版套餐是否补货？](archives/2026/01/04-2026-%E6%9C%80%E6%96%B0%E6%90%AC%E7%93%A6%E5%B7%A5%E9%99%90%E9%87%8F%E7%89%88%E5%A5%97%E9%A4%90%E9%A2%84%E6%B5%8B%EF%BC%9AMiniChickenMiniBoxMegaBoxThe-Plan-%E7%AD%89%E9%99%90%E9%87%8F%E7%89%88%E5%A5%97%E9%A4%90%E6%98%AF%E5%90%A6%E8%A1%A5%E8%B4%A7%EF%BC%9F.md)
 *2026-01-04* - 不知不觉已经迎来了 2026 年了，时光飞逝，是真的飞逝，感觉 2025 都没什么感觉，2024、2023 也都没什么感觉。搬瓦工在最近几年也陆陆续续推出了很多的限量版套餐，包括最早在 2018 年推...
 
-### 📄 [极连云机场怎么样？](archives/2026/01/01-%E6%9E%81%E8%BF%9E%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F.md)
-*2026-01-01* - 机场简介 极连云机场，25年9月底成立的，BGP 入口 + IPLC 专线，Shadowsocks 协议，目前 [&#8230;]
-&lt;p&gt;The post 极连云机场怎么样？ first ...
+### 📄 [2026 最新搬瓦工购买教程 & 支付宝支付教程](archives/2026/01/01-2026-%E6%9C%80%E6%96%B0%E6%90%AC%E7%93%A6%E5%B7%A5%E8%B4%AD%E4%B9%B0%E6%95%99%E7%A8%8B-%26-%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98%E6%95%99%E7%A8%8B.md)
+*2026-01-01* - 搬瓦工怎么购买？怎么用支付宝付款？搬瓦工购买教程？搬瓦工支付宝购买教程？今天更新一发搬瓦工最新的购买教程和支付宝支付教程。事无巨细，尽量写的详细，新手请认真阅读全文，尽可能背诵全文，老鸟可以忽略。本教...
 
 ### 📄 [去掉 Gemini 生成的图片水印](archives/2026/01/01-%E5%8E%BB%E6%8E%89-Gemini-%E7%94%9F%E6%88%90%E7%9A%84%E5%9B%BE%E7%89%87%E6%B0%B4%E5%8D%B0.md)
 *2026-01-01* - Gemini 生成的图片有水印，有一款开源工具可以去掉它们。我现在的文章特色图都是用 Gemini 生成的，但 [&#8230;]
@@ -120,23 +119,23 @@
 *2026-01-01* - 之前我电脑上的项目都是在 A Github账号下的，这几天准备新开一个 B 账号，挂一些别的项目。然后在使用的 [&#8230;]
 &lt;p&gt;The post 本地配置多个 Github 账号...
 
-### 📄 [2026 最新搬瓦工购买教程 & 支付宝支付教程](archives/2026/01/01-2026-%E6%9C%80%E6%96%B0%E6%90%AC%E7%93%A6%E5%B7%A5%E8%B4%AD%E4%B9%B0%E6%95%99%E7%A8%8B-%26-%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98%E6%95%99%E7%A8%8B.md)
-*2026-01-01* - 搬瓦工怎么购买？怎么用支付宝付款？搬瓦工购买教程？搬瓦工支付宝购买教程？今天更新一发搬瓦工最新的购买教程和支付宝支付教程。事无巨细，尽量写的详细，新手请认真阅读全文，尽可能背诵全文，老鸟可以忽略。本教...
+### 📄 [极连云机场怎么样？](archives/2026/01/01-%E6%9E%81%E8%BF%9E%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F.md)
+*2026-01-01* - 机场简介 极连云机场，25年9月底成立的，BGP 入口 + IPLC 专线，Shadowsocks 协议，目前 [&#8230;]
+&lt;p&gt;The post 极连云机场怎么样？ first ...
 
 ### 📄 [SMS-Activate宣布停止服务](archives/2025/12/29-SMS-Activate%E5%AE%A3%E5%B8%83%E5%81%9C%E6%AD%A2%E6%9C%8D%E5%8A%A1.md)
 *2025-12-29* - 这个在当年注册 ChatGPT 很火的短信接码平台于12月29日宣布停止服务了。这个平台很久没用了，尤其是使用 [&#8230;]
 &lt;p&gt;The post SMS-Activate宣布停止...
 
+### 📄 [极连云机场测速&评测](archives/2025/12/28-%E6%9E%81%E8%BF%9E%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
+*2025-12-28* - 极连云机场简介 极连云机场（Hyper Link）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱程...
+
 ### 📄 [网站陷入了人机验证的死循环](archives/2025/12/28-%E7%BD%91%E7%AB%99%E9%99%B7%E5%85%A5%E4%BA%86%E4%BA%BA%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%9A%84%E6%AD%BB%E5%BE%AA%E7%8E%AF.md)
 *2025-12-28* - 今天在问 Gemini，为什么同样是用的 Cloudflare CDN，别人在国内的解析速度就是比我快。AI  [&#8230;]
 &lt;p&gt;The post 网站陷入了人机验证的死循环 fi...
 
-### 📄 [极连云机场测速&评测](archives/2025/12/28-%E6%9E%81%E8%BF%9E%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
-*2025-12-28* - 极连云机场简介 极连云机场（Hyper Link）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱程...
-
-### 📄 [光速云机场怎么样？](archives/2025/12/26-%E5%85%89%E9%80%9F%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F.md)
-*2025-12-26* - 机场简介 光速云机场，25年9月底成立的，IPLC 专线，Shadowsocks 协议。 用香港节点会触发Go [&#8230;]
-&lt;p&gt;The post 光速云机场怎么样？ first ...
+### 📄 [光速云机场测速&评测](archives/2025/12/26-%E5%85%89%E9%80%9F%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
+*2025-12-26* - 光速云机场简介 光速云机场（Light Speed）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱...
 
 ### 📄 [Telegram 启用 Passkeys，终于可以告别短信验证码了](archives/2025/12/26-Telegram-%E5%90%AF%E7%94%A8-Passkeys%EF%BC%8C%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E5%91%8A%E5%88%AB%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%E4%BA%86.md)
 *2025-12-26* - Telegram 在月中推出了 Passkeys（通行密钥） 功能，赶紧去设置一下，以后就不用担心 +86 的 [&#8230;]
@@ -145,8 +144,9 @@
 ### 📄 [搬瓦工 2025 圣诞节优惠/2026 元旦新年促销活动预测/最新优惠补货通知](archives/2025/12/26-%E6%90%AC%E7%93%A6%E5%B7%A5-2025-%E5%9C%A3%E8%AF%9E%E8%8A%82%E4%BC%98%E6%83%A02026-%E5%85%83%E6%97%A6%E6%96%B0%E5%B9%B4%E4%BF%83%E9%94%80%E6%B4%BB%E5%8A%A8%E9%A2%84%E6%B5%8B%E6%9C%80%E6%96%B0%E4%BC%98%E6%83%A0%E8%A1%A5%E8%B4%A7%E9%80%9A%E7%9F%A5.md)
 *2025-12-26* - 最近又到 2025 年年末了，2025 年 12 月底，事情也比较多，网站确实也不太顾得上。最近适逢 2025 圣诞节、2026 元旦/新年，搬瓦工会不会有什么优惠促销活动呢？今天是 Boxing D...
 
-### 📄 [光速云机场测速&评测](archives/2025/12/26-%E5%85%89%E9%80%9F%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
-*2025-12-26* - 光速云机场简介 光速云机场（Light Speed）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱...
+### 📄 [光速云机场怎么样？](archives/2025/12/26-%E5%85%89%E9%80%9F%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F.md)
+*2025-12-26* - 机场简介 光速云机场，25年9月底成立的，IPLC 专线，Shadowsocks 协议。 用香港节点会触发Go [&#8230;]
+&lt;p&gt;The post 光速云机场怎么样？ first ...
 
 ### 📄 [5年过去了，为什么 IPLC/IEPL 依然是科学上网的“终极方案”？](archives/2025/12/25-5%E5%B9%B4%E8%BF%87%E5%8E%BB%E4%BA%86%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88-IPLCIEPL-%E4%BE%9D%E7%84%B6%E6%98%AF%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%9A%84%E2%80%9C%E7%BB%88%E6%9E%81%E6%96%B9%E6%A1%88%E2%80%9D%EF%BC%9F.md)
 *2025-12-25* - 我们经常在机场的节点列表里看到“IPLC/IEPL专线”，而且现在专线。但这个“专线”到底是什么？它和普通的节 [&#8230;]
@@ -169,35 +169,35 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Jc/nunet](https://kerrynotes.blog/jc/nunet)
+### 💎 [2024 最佳机场推荐：Anyland 评测](https://clashx.blog/anyland)
+anyland 是一款性价比极高的加速服务，支持多平台使用。
+
+### ⚡ [2024 最佳机场推荐：Linkeless 评测](https://clashx.blog/linkeless)
 专线接入，超低延迟，游戏/视频两不误。
 
-### ⚡ [Jc/dgyunaff - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jc/dgyunaff)
-jc/dgyunaff 是一款性价比极高的加速服务，支持多平台使用。
+### 🚀 [稳定好用的梯子推荐：Onlyribbit](https://clashx.blog/onlyribbit)
+注册即可免费试用，onlyribbit 提供稳定高速的节点。
 
-### 🚀 [2024 最佳机场推荐：Jc/xjj 评测](https://kerrynotes.blog/jc/xjj)
-jc/xjj 是一款性价比极高的加速服务，支持多平台使用。
+### ⭐ [便宜机场推荐：Naiun 性价比之选](https://clashx.blog/naiun)
+点击上方链接访问 naiun 官网，获取最新优惠。
 
-### ⭐ [Go/sdm - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/go/sdm)
-点击上方链接访问 go/sdm 官网，获取最新优惠。
+### 🌐 [Jifeng 怎么样？最新使用体验报告](https://clashx.blog/jifeng)
+点击上方链接访问 jifeng 官网，获取最新优惠。
 
-### ⭐ [Jc/lmy 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/lmy)
-点击上方链接访问 jc/lmy 官网，获取最新优惠。
+### 💎 [稳定好用的梯子推荐：Yangfan](https://clashx.blog/yangfan)
+注册即可免费试用，yangfan 提供稳定高速的节点。
 
-### 💡 [安卓/iOS/Mac/Windows 通用机场推荐：1yt](https://kerrynotes.blog/1yt)
-1yt 是一款性价比极高的加速服务，支持多平台使用。
+### 💡 [便宜机场推荐：Youtu 性价比之选](https://clashx.blog/youtu)
+youtu 是一款性价比极高的加速服务，支持多平台使用。
 
-### 📝 [Kerrynotes 官网地址与最新优惠码](https://kerrynotes.blog)
-注册即可免费试用，kerrynotes 提供稳定高速的节点。
+### ⚡ [稳定好用的梯子推荐：Shandian](https://clashx.blog/shandian)
+晚高峰 4K 视频秒开，shandian 值得一试。
 
-### ⭐ [Kky 官网地址与最新优惠码](https://kerrynotes.blog/kky)
-kky 是一款性价比极高的加速服务，支持多平台使用。
+### 🌐 [安卓/iOS/Mac/Windows 通用机场推荐：Beibeilink](https://clashx.blog/beibeilink)
+专线接入，超低延迟，游戏/视频两不误。
 
-### ⚡ [Go/yyss 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/go/yyss)
-go/yyss 是一款性价比极高的加速服务，支持多平台使用。
-
-### 💡 [安卓/iOS/Mac/Windows 通用机场推荐：Go/kky](https://kerrynotes.blog/go/kky)
-go/kky 是一款性价比极高的加速服务，支持多平台使用。
+### 🚀 [Xxai 机场推荐 - 高速稳定 4K 秒开](https://clashx.blog/xxai)
+专线接入，超低延迟，游戏/视频两不误。
 
 ---
 ## 历史归档 (History)
@@ -227,4 +227,4 @@ go/kky 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-02-16 05:58:42*
+*自动更新于 2026-02-17 05:47:06*
