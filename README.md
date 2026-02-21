@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-02-20)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-02-21)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：4K秒开、科学上网、解锁Netflix、翻墙软件、机场推荐
+**热门标签**：Trojan、Clash节点、4K秒开、便宜机场、VPN推荐
 
 ## 最新更新 (Recent Updates)
 
@@ -169,35 +169,35 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### ⭐ [2024 最佳机场推荐：Cbyer 评测](https://kerrynotes.blog/cbyer)
-点击上方链接访问 cbyer 官网，获取最新优惠。
+### 🚀 [Jc/nunet 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/nunet)
+jc/nunet 是一款性价比极高的加速服务，支持多平台使用。
 
-### 🌐 [Gsy 官网地址与最新优惠码](https://kerrynotes.blog/gsy)
-gsy 是一款性价比极高的加速服务，支持多平台使用。
+### 💎 [Jc/dtaff2 - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jc/dtaff2)
+专线接入，超低延迟，游戏/视频两不误。
 
-### 🔥 [稳定好用的梯子推荐：9xy](https://kerrynotes.blog/9xy)
-点击上方链接访问 9xy 官网，获取最新优惠。
+### 🔥 [2024 最佳机场推荐：Go/vultrtry50 评测](https://kerrynotes.blog/go/vultrtry50)
+点击上方链接访问 go/vultrtry50 官网，获取最新优惠。
 
-### 💎 [Jly 怎么样？最新使用体验报告](https://kerrynotes.blog/jly)
-点击上方链接访问 jly 官网，获取最新优惠。
+### ⭐ [Wsy 怎么样？最新使用体验报告](https://kerrynotes.blog/wsy)
+点击上方链接访问 wsy 官网，获取最新优惠。
 
-### 🌐 [Jc/taishan3 官网地址与最新优惠码](https://kerrynotes.blog/jc/taishan3)
-晚高峰 4K 视频秒开，jc/taishan3 值得一试。
+### 📝 [Go/wgetcloud - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/go/wgetcloud)
+专线接入，超低延迟，游戏/视频两不误。
 
-### 💎 [Go/vultrvps 怎么样？最新使用体验报告](https://kerrynotes.blog/go/vultrvps)
-晚高峰 4K 视频秒开，go/vultrvps 值得一试。
+### 💡 [Naiy 官网地址与最新优惠码](https://kerrynotes.blog/naiy)
+专线接入，超低延迟，游戏/视频两不误。
 
-### 📝 [Flybird 官网地址与最新优惠码](https://kerrynotes.blog/flybird)
-flybird 是一款性价比极高的加速服务，支持多平台使用。
+### 💎 [Go/yyss 怎么样？最新使用体验报告](https://kerrynotes.blog/go/yyss)
+专线接入，超低延迟，游戏/视频两不误。
 
-### ⭐ [Jc/grcaff 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/grcaff)
-注册即可免费试用，jc/grcaff 提供稳定高速的节点。
+### 📝 [Jc/bjaff 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/bjaff)
+专线接入，超低延迟，游戏/视频两不误。
 
-### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Web3](https://kerrynotes.blog/web3)
-注册即可免费试用，web3 提供稳定高速的节点。
+### 🚀 [Go/niceaff - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/go/niceaff)
+专线接入，超低延迟，游戏/视频两不误。
 
-### 💡 [便宜机场推荐：Fox 性价比之选](https://kerrynotes.blog/fox)
-注册即可免费试用，fox 提供稳定高速的节点。
+### 💎 [Jc/lmy 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/lmy)
+点击上方链接访问 jc/lmy 官网，获取最新优惠。
 
 ---
 ## 历史归档 (History)
@@ -227,4 +227,4 @@ flybird 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-02-20 05:40:36*
+*自动更新于 2026-02-21 05:13:26*
