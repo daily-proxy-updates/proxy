@@ -1,10 +1,16 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-03-07)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-03-08)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：VPN推荐、IPLC专线、高速节点、解锁Netflix、Clash节点
+**热门标签**：高速节点、翻墙软件、V2Ray、解锁Netflix、Trojan
 
 ## 最新更新 (Recent Updates)
+
+### 📄 [光年梯机场测速&评测](archives/2026/03/07-%E5%85%89%E5%B9%B4%E6%A2%AF%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
+*2026-03-07* - 光年梯机场简介 光年梯机场是一家 2026 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，开业时间不长但可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱程度应该不是...
+
+### 📄 [Viking Links 机场测速&评测](archives/2026/03/02-Viking-Links-%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
+*2026-03-02* - Viking Links 机场简介 Viking Links 机场（也简称 VK 机场）是一家 2015 年开业的机场，中文直译其名为维京链接，提供 Shadowsocks 协议节点订阅，多链路 IE...
 
 ### 📄 [ANYNET 机场测速&评测](archives/2026/02/13-ANYNET-%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
 *2026-02-13* - ANYNET 机场简介 ANYNET 机场是一家 2025 年末开业的专线机场，少有的 阿里云 公有云入口，加上 VLESS 新协议的组合较为稀有，节点无复用仅包含了六大常用地区，没有冷门地区节点。套...
@@ -127,12 +133,15 @@
 *2025-12-29* - 这个在当年注册 ChatGPT 很火的短信接码平台于12月29日宣布停止服务了。这个平台很久没用了，尤其是使用 [&#8230;]
 &lt;p&gt;The post SMS-Activate宣布停止...
 
+### 📄 [极连云机场测速&评测](archives/2025/12/28-%E6%9E%81%E8%BF%9E%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
+*2025-12-28* - 极连云机场简介 极连云机场（Hyper Link）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱程...
+
 ### 📄 [网站陷入了人机验证的死循环](archives/2025/12/28-%E7%BD%91%E7%AB%99%E9%99%B7%E5%85%A5%E4%BA%86%E4%BA%BA%E6%9C%BA%E9%AA%8C%E8%AF%81%E7%9A%84%E6%AD%BB%E5%BE%AA%E7%8E%AF.md)
 *2025-12-28* - 今天在问 Gemini，为什么同样是用的 Cloudflare CDN，别人在国内的解析速度就是比我快。AI  [&#8230;]
 &lt;p&gt;The post 网站陷入了人机验证的死循环 fi...
 
-### 📄 [极连云机场测速&评测](archives/2025/12/28-%E6%9E%81%E8%BF%9E%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
-*2025-12-28* - 极连云机场简介 极连云机场（Hyper Link）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱程...
+### 📄 [光速云机场测速&评测](archives/2025/12/26-%E5%85%89%E9%80%9F%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
+*2025-12-26* - 光速云机场简介 光速云机场（Light Speed）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱...
 
 ### 📄 [Telegram 启用 Passkeys，终于可以告别短信验证码了](archives/2025/12/26-Telegram-%E5%90%AF%E7%94%A8-Passkeys%EF%BC%8C%E7%BB%88%E4%BA%8E%E5%8F%AF%E4%BB%A5%E5%91%8A%E5%88%AB%E7%9F%AD%E4%BF%A1%E9%AA%8C%E8%AF%81%E7%A0%81%E4%BA%86.md)
 *2025-12-26* - Telegram 在月中推出了 Passkeys（通行密钥） 功能，赶紧去设置一下，以后就不用担心 +86 的 [&#8230;]
@@ -140,9 +149,6 @@
 
 ### 📄 [搬瓦工 2025 圣诞节优惠/2026 元旦新年促销活动预测/最新优惠补货通知](archives/2025/12/26-%E6%90%AC%E7%93%A6%E5%B7%A5-2025-%E5%9C%A3%E8%AF%9E%E8%8A%82%E4%BC%98%E6%83%A02026-%E5%85%83%E6%97%A6%E6%96%B0%E5%B9%B4%E4%BF%83%E9%94%80%E6%B4%BB%E5%8A%A8%E9%A2%84%E6%B5%8B%E6%9C%80%E6%96%B0%E4%BC%98%E6%83%A0%E8%A1%A5%E8%B4%A7%E9%80%9A%E7%9F%A5.md)
 *2025-12-26* - 最近又到 2025 年年末了，2025 年 12 月底，事情也比较多，网站确实也不太顾得上。最近适逢 2025 圣诞节、2026 元旦/新年，搬瓦工会不会有什么优惠促销活动呢？今天是 Boxing D...
-
-### 📄 [光速云机场测速&评测](archives/2025/12/26-%E5%85%89%E9%80%9F%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
-*2025-12-26* - 光速云机场简介 光速云机场（Light Speed）是一家 2025 年新出的机场梯子品牌， IPLC 内网专线，Shadowsocks 协议节点，可以从多个方面看出是背靠的老牌机场团队的新项目，靠谱...
 
 ### 📄 [光速云机场怎么样？](archives/2025/12/26-%E5%85%89%E9%80%9F%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%80%8E%E4%B9%88%E6%A0%B7%EF%BC%9F.md)
 *2025-12-26* - 机场简介 光速云机场，25年9月底成立的，IPLC 专线，Shadowsocks 协议。 用香港节点会触发Go [&#8230;]
@@ -161,20 +167,42 @@
 ### 📄 [LinkCube 机场测速&评测](archives/2025/12/11-LinkCube%C2%A0%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
 *2025-12-11* - LinkCube&#160;机场简介 LinkCube 机场是一家老牌大机场，也称绿叶机场或绿叶加速，前身名为便利店机场，开业时间是在 2022 年前后，线路是三网多入口智能解析的 IPLC 内网专线...
 
-### 📄 [快冲云机场测速&评测](archives/2025/12/04-%E5%BF%AB%E5%86%B2%E4%BA%91%E6%9C%BA%E5%9C%BA%E6%B5%8B%E9%80%9F%26%E8%AF%84%E6%B5%8B.md)
-*2025-12-04* - 快冲云机场简介 快冲云是一家老牌机场，开业时间是 2020 年左右，Shadowsocks 协议的公网隧道中转节点和 IPLC 专线节点，多个国家和地区家宽 IP 节点提供或者说家宽 IP 节点是这家...
-
-### 📄 [#备忘# 恢复Debian 13默认的APT更新源](archives/2025/12/02-%23%E5%A4%87%E5%BF%98%23-%E6%81%A2%E5%A4%8DDebian-13%E9%BB%98%E8%AE%A4%E7%9A%84APT%E6%9B%B4%E6%96%B0%E6%BA%90.md)
-*2025-12-02* - 之前胡乱瞎弄，结果把apt源弄乱了，结果现在想还原。网上搜了一下，不过最好还是弄之前备份一下。以下是Debian 13的默认apt源 把如下内容粘贴到 /etc/apt/sources.list De...
-
 ## 推荐资源 (Recommended Resources)
 
-### 🌐 [安卓/iOS/Mac/Windows 通用机场推荐：Itbulu](https://itbulu.yss.best)
-晚高峰 4K 视频秒开，itbulu 值得一试。
+### 💎 [2024 最佳机场推荐：Dageyun 评测](https://clashx.blog/dageyun)
+dageyun 是一款性价比极高的加速服务，支持多平台使用。
+
+### 🚀 [2024 最佳机场推荐：Erwan 评测](https://clashx.blog/erwan)
+晚高峰 4K 视频秒开，erwan 值得一试。
+
+### 📝 [Besttelecom 机场推荐 - 高速稳定 4K 秒开](https://clashx.blog/besttelecom)
+besttelecom 是一款性价比极高的加速服务，支持多平台使用。
+
+### 🔥 [Cocoduck 官网地址与最新优惠码](https://clashx.blog/cocoduck)
+点击上方链接访问 cocoduck 官网，获取最新优惠。
+
+### ⭐ [Xxf 官网地址与最新优惠码](https://clashx.blog/xxf)
+专线接入，超低延迟，游戏/视频两不误。
+
+### 💎 [稳定好用的梯子推荐：Kuaichong](https://clashx.blog/kuaichong)
+晚高峰 4K 视频秒开，kuaichong 值得一试。
+
+### 🚀 [便宜机场推荐：Yepfast 性价比之选](https://clashx.blog/yepfast)
+点击上方链接访问 yepfast 官网，获取最新优惠。
+
+### ⚡ [2024 最佳机场推荐：Anyway 评测](https://clashx.blog/anyway)
+点击上方链接访问 anyway 官网，获取最新优惠。
+
+### 🚀 [便宜机场推荐：Juzicloud 性价比之选](https://clashx.blog/juzicloud)
+专线接入，超低延迟，游戏/视频两不误。
+
+### 🔥 [2024 最佳机场推荐：Speedcat 评测](https://clashx.blog/speedcat)
+点击上方链接访问 speedcat 官网，获取最新优惠。
 
 ---
 ## 历史归档 (History)
 
+- [2026年03月 归档](archives/2026/03/)
 - [2026年02月 归档](archives/2026/02/)
 - [2026年01月 归档](archives/2026/01/)
 - [2025年12月 归档](archives/2025/12/)
@@ -200,4 +228,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-03-07 03:49:31*
+*自动更新于 2026-03-08 03:58:44*
