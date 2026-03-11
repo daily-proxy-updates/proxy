@@ -4,7 +4,7 @@
 
 ## 摘要
 
-Viking Links 机场简介 Viking Links 机场（也简称 VK 机场）是一家 2015 年开业的机场，中文直译其名为维京链接，提供 Shadowsocks 协议节点订阅，多链路 IEPL 内网专线跨境，节点包含了五大常用地...
+Viking Links 机场简介 Viking Links 机场（也简称 VK 机场）是一家 2025 年开业的机场，中文直译其名为维京链接，提供 Shadowsocks 协议节点订阅，多链路 IEPL 内网专线跨境，节点包含了五大常用地...
 
 ---
 
