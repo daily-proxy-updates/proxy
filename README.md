@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-03-17)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-03-18)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：稳定机场、VPN推荐、机场推荐、Trojan、便宜机场
+**热门标签**：解锁Netflix、IPLC专线、梯子推荐、V2Ray、高速节点
 
 ## 最新更新 (Recent Updates)
 
@@ -171,35 +171,35 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### ⚡ [Dog 怎么样？最新使用体验报告](https://kerrynotes.blog/dog)
-点击上方链接访问 dog 官网，获取最新优惠。
+### 📝 [安卓/iOS/Mac/Windows 通用机场推荐：Jc/ggaff](https://kerrynotes.blog/jc/ggaff)
+注册即可免费试用，jc/ggaff 提供稳定高速的节点。
 
-### 🚀 [9xy 怎么样？最新使用体验报告](https://kerrynotes.blog/9xy)
-点击上方链接访问 9xy 官网，获取最新优惠。
+### 🔥 [稳定好用的梯子推荐：Fox](https://kerrynotes.blog/fox)
+点击上方链接访问 fox 官网，获取最新优惠。
 
-### 🚀 [Go/sdm 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/go/sdm)
-点击上方链接访问 go/sdm 官网，获取最新优惠。
+### ⭐ [Jc/xiaoliyu 官网地址与最新优惠码](https://kerrynotes.blog/jc/xiaoliyu)
+注册即可免费试用，jc/xiaoliyu 提供稳定高速的节点。
 
-### 🚀 [2024 最佳机场推荐：Wty 评测](https://kerrynotes.blog/wty)
-wty 是一款性价比极高的加速服务，支持多平台使用。
+### 💎 [Naiy 官网地址与最新优惠码](https://kerrynotes.blog/naiy)
+naiy 是一款性价比极高的加速服务，支持多平台使用。
 
-### 💎 [Tnt 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/tnt)
+### 💎 [Galaxy 官网地址与最新优惠码](https://kerrynotes.blog/galaxy)
+晚高峰 4K 视频秒开，galaxy 值得一试。
+
+### 🚀 [安卓/iOS/Mac/Windows 通用机场推荐：Go/niceaff](https://kerrynotes.blog/go/niceaff)
+注册即可免费试用，go/niceaff 提供稳定高速的节点。
+
+### 🔥 [Jc/nunet 官网地址与最新优惠码](https://kerrynotes.blog/jc/nunet)
+注册即可免费试用，jc/nunet 提供稳定高速的节点。
+
+### 💡 [Go/kky 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/go/kky)
 专线接入，超低延迟，游戏/视频两不误。
 
-### 🚀 [便宜机场推荐：Jc/dgyunaff 性价比之选](https://kerrynotes.blog/jc/dgyunaff)
-jc/dgyunaff 是一款性价比极高的加速服务，支持多平台使用。
+### 🌐 [Go/srshop - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/go/srshop)
+注册即可免费试用，go/srshop 提供稳定高速的节点。
 
-### 🌐 [便宜机场推荐：Ssid 性价比之选](https://kerrynotes.blog/ssid)
-晚高峰 4K 视频秒开，ssid 值得一试。
-
-### 💎 [2024 最佳机场推荐：Jc/ftpig 评测](https://kerrynotes.blog/jc/ftpig)
-点击上方链接访问 jc/ftpig 官网，获取最新优惠。
-
-### 💎 [2024 最佳机场推荐：Go/vultrtry50 评测](https://kerrynotes.blog/go/vultrtry50)
-晚高峰 4K 视频秒开，go/vultrtry50 值得一试。
-
-### 🚀 [Jc/dtaff - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jc/dtaff)
-jc/dtaff 是一款性价比极高的加速服务，支持多平台使用。
+### ⭐ [便宜机场推荐：Go/fastlink 性价比之选](https://kerrynotes.blog/go/fastlink)
+注册即可免费试用，go/fastlink 提供稳定高速的节点。
 
 ---
 ## 历史归档 (History)
@@ -230,4 +230,4 @@ jc/dtaff 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-03-17 04:05:08*
+*自动更新于 2026-03-18 04:10:33*
