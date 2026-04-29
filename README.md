@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-04-28)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-04-29)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：Shadowsocks、梯子推荐、翻墙软件、VPN推荐、高速节点
+**热门标签**：解锁Netflix、VPN推荐、V2Ray、Clash节点、便宜机场
 
 ## 最新更新 (Recent Updates)
 
@@ -171,8 +171,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### ⭐ [安卓/iOS/Mac/Windows 通用机场推荐：Oldtang](https://oldtang.dyt.one)
-晚高峰 4K 视频秒开，OldTang 值得一试。
+### 📝 [Buldprice 官网地址与最新优惠码](https://buldprice.pw)
+点击上方链接访问 BuldPrice 官网，获取最新优惠。
 
 ---
 ## 历史归档 (History)
@@ -203,4 +203,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-04-28 05:18:32*
+*自动更新于 2026-04-29 05:15:04*
