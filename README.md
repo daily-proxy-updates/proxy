@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-05-18)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-05-19)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：机场推荐、解锁Netflix、VPN推荐、Shadowsocks、Trojan
+**热门标签**：Trojan、便宜机场、机场推荐、Shadowsocks、翻墙软件
 
 ## 最新更新 (Recent Updates)
 
@@ -171,8 +171,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 📝 [Jichangcesu 怎么样？最新使用体验报告](https://jichangcesu.dyt.one)
-注册即可免费试用，JichangCeSu 提供稳定高速的节点。
+### 🔥 [便宜机场推荐：Guatizi 性价比之选](https://guatizi.mom)
+点击上方链接访问 guatizi 官网，获取最新优惠。
 
 ---
 ## 历史归档 (History)
@@ -203,4 +203,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-05-18 06:00:14*
+*自动更新于 2026-05-19 05:55:15*
