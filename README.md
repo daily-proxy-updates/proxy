@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-06-17)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-06-18)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：V2Ray、便宜机场、Trojan、Clash节点、高速节点
+**热门标签**：解锁Netflix、翻墙软件、Shadowsocks、高速节点、Trojan
 
 ## 最新更新 (Recent Updates)
 
@@ -170,35 +170,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 💡 [Bj - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/bj)
-注册即可免费试用，bj 提供稳定高速的节点。
-
-### ⚡ [Jc/dtaff 官网地址与最新优惠码](https://kerrynotes.blog/jc/dtaff)
-专线接入，超低延迟，游戏/视频两不误。
-
-### ⚡ [Jc/xxai 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/xxai)
-注册即可免费试用，jc/xxai 提供稳定高速的节点。
-
-### ⭐ [Go/sdm 官网地址与最新优惠码](https://kerrynotes.blog/go/sdm)
-注册即可免费试用，go/sdm 提供稳定高速的节点。
-
-### 📝 [安卓/iOS/Mac/Windows 通用机场推荐：Go/mj](https://kerrynotes.blog/go/mj)
-注册即可免费试用，go/mj 提供稳定高速的节点。
-
-### 💎 [Jc/xjj 怎么样？最新使用体验报告](https://kerrynotes.blog/jc/xjj)
-jc/xjj 是一款性价比极高的加速服务，支持多平台使用。
-
-### 🚀 [Go/fastlink 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/go/fastlink)
-专线接入，超低延迟，游戏/视频两不误。
-
-### 💡 [2024 最佳机场推荐：Go/vultrtry50 评测](https://kerrynotes.blog/go/vultrtry50)
-go/vultrtry50 是一款性价比极高的加速服务，支持多平台使用。
-
-### 🌐 [Jc/yytaff 怎么样？最新使用体验报告](https://kerrynotes.blog/jc/yytaff)
-晚高峰 4K 视频秒开，jc/yytaff 值得一试。
-
-### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Go/srshop](https://kerrynotes.blog/go/srshop)
-注册即可免费试用，go/srshop 提供稳定高速的节点。
+### 💡 [Liuzhanwu 官网地址与最新优惠码](https://liuzhanwu.dyt.one)
+注册即可免费试用，liuzhanwu 提供稳定高速的节点。
 
 ---
 ## 历史归档 (History)
@@ -229,4 +202,4 @@ go/vultrtry50 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-06-17 06:55:30*
+*自动更新于 2026-06-18 06:40:44*
