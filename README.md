@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-06-26)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-06-27)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：解锁Netflix、翻墙软件、Trojan、高速节点、机场推荐
+**热门标签**：IPLC专线、V2Ray、梯子推荐、机场推荐、便宜机场
 
 ## 最新更新 (Recent Updates)
 
@@ -170,8 +170,35 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 📝 [稳定好用的梯子推荐：Oldtang](https://oldtang.dyt.one)
-OldTang 是一款性价比极高的加速服务，支持多平台使用。
+### 🔥 [便宜机场推荐：Xmd 性价比之选](https://kerrynotes.blog/xmd)
+注册即可免费试用，xmd 提供稳定高速的节点。
+
+### 🔥 [Cbyer 官网地址与最新优惠码](https://kerrynotes.blog/cbyer)
+晚高峰 4K 视频秒开，cbyer 值得一试。
+
+### ⭐ [便宜机场推荐：Jc/bjaff 性价比之选](https://kerrynotes.blog/jc/bjaff)
+专线接入，超低延迟，游戏/视频两不误。
+
+### 🔥 [便宜机场推荐：Dgy 性价比之选](https://kerrynotes.blog/dgy)
+晚高峰 4K 视频秒开，dgy 值得一试。
+
+### 🔥 [Jc/nunet 官网地址与最新优惠码](https://kerrynotes.blog/jc/nunet)
+注册即可免费试用，jc/nunet 提供稳定高速的节点。
+
+### ⭐ [2024 最佳机场推荐：Jc/ts3 评测](https://kerrynotes.blog/jc/ts3)
+专线接入，超低延迟，游戏/视频两不误。
+
+### ⭐ [稳定好用的梯子推荐：Tnt](https://kerrynotes.blog/tnt)
+tnt 是一款性价比极高的加速服务，支持多平台使用。
+
+### 🚀 [Kky 怎么样？最新使用体验报告](https://kerrynotes.blog/kky)
+注册即可免费试用，kky 提供稳定高速的节点。
+
+### 📝 [Jc/feimaff - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jc/feimaff)
+注册即可免费试用，jc/feimaff 提供稳定高速的节点。
+
+### 🔥 [便宜机场推荐：Go/vultrvps 性价比之选](https://kerrynotes.blog/go/vultrvps)
+专线接入，超低延迟，游戏/视频两不误。
 
 ---
 ## 历史归档 (History)
@@ -202,4 +229,4 @@ OldTang 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-06-26 05:58:17*
+*自动更新于 2026-06-27 05:42:14*
