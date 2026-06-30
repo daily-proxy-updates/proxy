@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-06-29)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-06-30)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：4K秒开、IPLC专线、机场推荐、便宜机场、解锁Netflix
+**热门标签**：Trojan、Clash节点、VPN推荐、高速节点、梯子推荐
 
 ## 最新更新 (Recent Updates)
 
@@ -170,35 +170,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### ⭐ [Go/vultrvps 官网地址与最新优惠码](https://kerrynotes.blog/go/vultrvps)
-注册即可免费试用，go/vultrvps 提供稳定高速的节点。
-
-### ⭐ [稳定好用的梯子推荐：Jc/cyberaff](https://kerrynotes.blog/jc/cyberaff)
+### 🌐 [Ssrv2ray 怎么样？最新使用体验报告](https://ssrv2ray.dyt.one)
 专线接入，超低延迟，游戏/视频两不误。
-
-### 💡 [便宜机场推荐：Jc/xiaoliyu 性价比之选](https://kerrynotes.blog/jc/xiaoliyu)
-专线接入，超低延迟，游戏/视频两不误。
-
-### ⚡ [便宜机场推荐：Jc/flybirdaff 性价比之选](https://kerrynotes.blog/jc/flybirdaff)
-jc/flybirdaff 是一款性价比极高的加速服务，支持多平台使用。
-
-### 💡 [Jly - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jly)
-jly 是一款性价比极高的加速服务，支持多平台使用。
-
-### 📝 [稳定好用的梯子推荐：Kky](https://kerrynotes.blog/kky)
-专线接入，超低延迟，游戏/视频两不误。
-
-### 💡 [便宜机场推荐：Gsy 性价比之选](https://kerrynotes.blog/gsy)
-点击上方链接访问 gsy 官网，获取最新优惠。
-
-### ⚡ [稳定好用的梯子推荐：Jc/feimaff](https://kerrynotes.blog/jc/feimaff)
-晚高峰 4K 视频秒开，jc/feimaff 值得一试。
-
-### 💡 [便宜机场推荐：Aldin 性价比之选](https://kerrynotes.blog/aldin)
-晚高峰 4K 视频秒开，aldin 值得一试。
-
-### 💡 [Go/fastlink 怎么样？最新使用体验报告](https://kerrynotes.blog/go/fastlink)
-go/fastlink 是一款性价比极高的加速服务，支持多平台使用。
 
 ---
 ## 历史归档 (History)
@@ -229,4 +202,4 @@ go/fastlink 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-06-29 06:24:43*
+*自动更新于 2026-06-30 05:59:09*
