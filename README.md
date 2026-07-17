@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-07-16)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-07-17)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：翻墙软件、梯子推荐、IPLC专线、科学上网、Shadowsocks
+**热门标签**：Trojan、翻墙软件、高速节点、梯子推荐、稳定机场
 
 ## 最新更新 (Recent Updates)
 
@@ -170,35 +170,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 🔥 [Okztwo 怎么样？最新使用体验报告](https://jichangtuijian.cv/okztwo)
-点击上方链接访问 okztwo 官网，获取最新优惠。
-
-### 🚀 [安卓/iOS/Mac/Windows 通用机场推荐：Hyperlink](https://jichangtuijian.cv/hyperlink)
-hyperlink 是一款性价比极高的加速服务，支持多平台使用。
-
-### 🚀 [Eix 怎么样？最新使用体验报告](https://jichangtuijian.cv/eix)
-eix 是一款性价比极高的加速服务，支持多平台使用。
-
-### ⭐ [稳定好用的梯子推荐：Bywave](https://jichangtuijian.cv/bywave)
-点击上方链接访问 bywave 官网，获取最新优惠。
-
-### 📝 [安卓/iOS/Mac/Windows 通用机场推荐：Xmf](https://jichangtuijian.cv/xmf)
-xmf 是一款性价比极高的加速服务，支持多平台使用。
-
-### 💡 [安卓/iOS/Mac/Windows 通用机场推荐：Chattous](https://jichangtuijian.cv/chattous)
-晚高峰 4K 视频秒开，chattous 值得一试。
-
-### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Naiun](https://jichangtuijian.cv/naiun)
-点击上方链接访问 naiun 官网，获取最新优惠。
-
-### 💎 [2024 最佳机场推荐：Wgetcloud 评测](https://jichangtuijian.cv/wgetcloud)
-晚高峰 4K 视频秒开，wgetcloud 值得一试。
-
-### 💎 [Tag 怎么样？最新使用体验报告](https://jichangtuijian.cv/tag)
-注册即可免费试用，tag 提供稳定高速的节点。
-
-### 🚀 [便宜机场推荐：Onlyribbit 性价比之选](https://jichangtuijian.cv/onlyribbit)
-晚高峰 4K 视频秒开，onlyribbit 值得一试。
+### 💎 [便宜机场推荐：Oldtang 性价比之选](https://oldtang.dyt.one)
+点击上方链接访问 OldTang 官网，获取最新优惠。
 
 ---
 ## 历史归档 (History)
@@ -229,4 +202,4 @@ xmf 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-07-16 04:45:59*
+*自动更新于 2026-07-17 04:49:06*
