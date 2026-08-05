@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-04)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-05)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：4K秒开、Shadowsocks、科学上网、梯子推荐、解锁Netflix
+**热门标签**：VPN推荐、机场推荐、Clash节点、IPLC专线、V2Ray
 
 ## 最新更新 (Recent Updates)
 
@@ -171,8 +171,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### ⚡ [Itbulu 官网地址与最新优惠码](https://itbulu.yss.best)
-点击上方链接访问 itbulu 官网，获取最新优惠。
+### 📝 [安卓/iOS/Mac/Windows 通用机场推荐：Liuzhanwu](https://liuzhanwu.dyt.one)
+liuzhanwu 是一款性价比极高的加速服务，支持多平台使用。
 
 ---
 ## 历史归档 (History)
@@ -203,4 +203,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-08-04 04:50:11*
+*自动更新于 2026-08-05 04:50:31*
