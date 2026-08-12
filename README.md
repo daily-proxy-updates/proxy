@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-11)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-12)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：稳定机场、机场推荐、V2Ray、梯子推荐、翻墙软件
+**热门标签**：IPLC专线、翻墙软件、Trojan、便宜机场、科学上网
 
 ## 最新更新 (Recent Updates)
 
@@ -171,8 +171,35 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 🌐 [2024 最佳机场推荐：Liuzhanwu 评测](https://liuzhanwu.dyt.one)
-晚高峰 4K 视频秒开，liuzhanwu 值得一试。
+### ⚡ [Kerrynotes 官网地址与最新优惠码](https://kerrynotes.blog)
+注册即可免费试用，kerrynotes 提供稳定高速的节点。
+
+### 📝 [Kky - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/kky)
+专线接入，超低延迟，游戏/视频两不误。
+
+### 💡 [1yt 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/1yt)
+注册即可免费试用，1yt 提供稳定高速的节点。
+
+### 💡 [安卓/iOS/Mac/Windows 通用机场推荐：Jc/grcaff](https://kerrynotes.blog/jc/grcaff)
+点击上方链接访问 jc/grcaff 官网，获取最新优惠。
+
+### 🚀 [Tnt 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/tnt)
+专线接入，超低延迟，游戏/视频两不误。
+
+### 🔥 [Jc/bjaff - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jc/bjaff)
+晚高峰 4K 视频秒开，jc/bjaff 值得一试。
+
+### 🚀 [安卓/iOS/Mac/Windows 通用机场推荐：Jc/xxai](https://kerrynotes.blog/jc/xxai)
+注册即可免费试用，jc/xxai 提供稳定高速的节点。
+
+### 📝 [2024 最佳机场推荐：Go/srshop 评测](https://kerrynotes.blog/go/srshop)
+点击上方链接访问 go/srshop 官网，获取最新优惠。
+
+### 🌐 [便宜机场推荐：Jc/ggaff 性价比之选](https://kerrynotes.blog/jc/ggaff)
+注册即可免费试用，jc/ggaff 提供稳定高速的节点。
+
+### ⭐ [Sdog 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/sdog)
+点击上方链接访问 sdog 官网，获取最新优惠。
 
 ---
 ## 历史归档 (History)
@@ -203,4 +230,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-08-11 03:23:47*
+*自动更新于 2026-08-12 03:52:04*
