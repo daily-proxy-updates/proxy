@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-20)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-21)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：机场推荐、稳定机场、科学上网、解锁Netflix、VPN推荐
+**热门标签**：解锁Netflix、VPN推荐、Shadowsocks、高速节点、IPLC专线
 
 ## 最新更新 (Recent Updates)
 
@@ -171,35 +171,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 📝 [Xmf 怎么样？最新使用体验报告](https://jichangtuijian.cv/xmf)
-注册即可免费试用，xmf 提供稳定高速的节点。
-
-### 💡 [Bywave - 解锁流媒体，晚高峰不卡顿](https://jichangtuijian.cv/bywave)
-晚高峰 4K 视频秒开，bywave 值得一试。
-
-### 💡 [稳定好用的梯子推荐：Hyperlink](https://jichangtuijian.cv/hyperlink)
-晚高峰 4K 视频秒开，hyperlink 值得一试。
-
-### 🚀 [Dmit - 解锁流媒体，晚高峰不卡顿](https://jichangtuijian.cv/dmit)
-晚高峰 4K 视频秒开，dmit 值得一试。
-
-### 🔥 [Skylinx 机场推荐 - 高速稳定 4K 秒开](https://jichangtuijian.cv/skylinx)
-专线接入，超低延迟，游戏/视频两不误。
-
-### 📝 [Ssone - 解锁流媒体，晚高峰不卡顿](https://jichangtuijian.cv/ssone)
-专线接入，超低延迟，游戏/视频两不误。
-
-### 🚀 [便宜机场推荐：Jichangtuijian 性价比之选](https://jichangtuijian.cv)
-晚高峰 4K 视频秒开，JiChangTuiJian 值得一试。
-
-### 🌐 [Eix 怎么样？最新使用体验报告](https://jichangtuijian.cv/eix)
-专线接入，超低延迟，游戏/视频两不误。
-
-### 💎 [Onlyribbit 机场推荐 - 高速稳定 4K 秒开](https://jichangtuijian.cv/onlyribbit)
-注册即可免费试用，onlyribbit 提供稳定高速的节点。
-
-### 🌐 [Tntcloud 机场推荐 - 高速稳定 4K 秒开](https://jichangtuijian.cv/tntcloud)
-tntcloud 是一款性价比极高的加速服务，支持多平台使用。
+### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Itbulu](https://itbulu.yss.best)
+晚高峰 4K 视频秒开，itbulu 值得一试。
 
 ---
 ## 历史归档 (History)
@@ -230,4 +203,4 @@ tntcloud 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-08-20 02:45:35*
+*自动更新于 2026-08-21 02:52:09*
