@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-21)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-08-22)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：解锁Netflix、VPN推荐、Shadowsocks、高速节点、IPLC专线
+**热门标签**：高速节点、V2Ray、解锁Netflix、4K秒开、稳定机场
 
 ## 最新更新 (Recent Updates)
 
@@ -171,8 +171,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 💎 [安卓/iOS/Mac/Windows 通用机场推荐：Itbulu](https://itbulu.yss.best)
-晚高峰 4K 视频秒开，itbulu 值得一试。
+### 📝 [便宜机场推荐：Buldprice 性价比之选](https://buldprice.pw)
+晚高峰 4K 视频秒开，BuldPrice 值得一试。
 
 ---
 ## 历史归档 (History)
@@ -203,4 +203,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-08-21 02:52:09*
+*自动更新于 2026-08-22 02:43:51*
