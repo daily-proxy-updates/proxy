@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-09-05)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-09-06)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：高速节点、便宜机场、解锁Netflix、4K秒开、机场推荐
+**热门标签**：Trojan、高速节点、翻墙软件、VPN推荐、IPLC专线
 
 ## 最新更新 (Recent Updates)
 
@@ -172,8 +172,35 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 🔥 [稳定好用的梯子推荐：Laozuo](https://laozuo.dyt.one)
-LaoZuo 是一款性价比极高的加速服务，支持多平台使用。
+### 📝 [安卓/iOS/Mac/Windows 通用机场推荐：Onlyribbit](https://jichangtuijian.cv/onlyribbit)
+晚高峰 4K 视频秒开，onlyribbit 值得一试。
+
+### 💎 [稳定好用的梯子推荐：Hyperlink](https://jichangtuijian.cv/hyperlink)
+点击上方链接访问 hyperlink 官网，获取最新优惠。
+
+### 📝 [2024 最佳机场推荐：Okztwo 评测](https://jichangtuijian.cv/okztwo)
+专线接入，超低延迟，游戏/视频两不误。
+
+### 🚀 [Skylinx - 解锁流媒体，晚高峰不卡顿](https://jichangtuijian.cv/skylinx)
+注册即可免费试用，skylinx 提供稳定高速的节点。
+
+### ⭐ [Dmit - 解锁流媒体，晚高峰不卡顿](https://jichangtuijian.cv/dmit)
+dmit 是一款性价比极高的加速服务，支持多平台使用。
+
+### 📝 [Boostnet - 解锁流媒体，晚高峰不卡顿](https://jichangtuijian.cv/boostnet)
+专线接入，超低延迟，游戏/视频两不误。
+
+### 💎 [稳定好用的梯子推荐：Wgetcloud](https://jichangtuijian.cv/wgetcloud)
+晚高峰 4K 视频秒开，wgetcloud 值得一试。
+
+### ⚡ [2024 最佳机场推荐：Duang 评测](https://jichangtuijian.cv/duang)
+duang 是一款性价比极高的加速服务，支持多平台使用。
+
+### 🌐 [Bywave - 解锁流媒体，晚高峰不卡顿](https://jichangtuijian.cv/bywave)
+bywave 是一款性价比极高的加速服务，支持多平台使用。
+
+### 📝 [Eix 官网地址与最新优惠码](https://jichangtuijian.cv/eix)
+点击上方链接访问 eix 官网，获取最新优惠。
 
 ---
 ## 历史归档 (History)
@@ -204,4 +231,4 @@ LaoZuo 是一款性价比极高的加速服务，支持多平台使用。
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-09-05 06:21:35*
+*自动更新于 2026-09-06 06:33:15*
