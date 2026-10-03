@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-10-02)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-10-03)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：解锁Netflix、V2Ray、稳定机场、Shadowsocks、4K秒开
+**热门标签**：Trojan、IPLC专线、V2Ray、Clash节点、VPN推荐
 
 ## 最新更新 (Recent Updates)
 
@@ -171,8 +171,8 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 🚀 [稳定好用的梯子推荐：Laowangblog](https://laowangblog.yss.best)
-注册即可免费试用，laowangblog 提供稳定高速的节点。
+### ⚡ [Jichangcesu - 解锁流媒体，晚高峰不卡顿](https://jichangcesu.dyt.one)
+注册即可免费试用，JichangCeSu 提供稳定高速的节点。
 
 ---
 ## 历史归档 (History)
@@ -203,4 +203,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-10-02 07:35:18*
+*自动更新于 2026-10-03 07:09:25*
