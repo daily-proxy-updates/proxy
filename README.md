@@ -1,8 +1,8 @@
-# 每日科技资讯与网络加速归档 (Last Updated: 2026-11-08)
+# 每日科技资讯与网络加速归档 (Last Updated: 2026-11-09)
 
 > 本项目自动抓取并归档最新的科技资讯、网络加速资源与教程。所有内容均已永久保存至 GitHub。
 
-**热门标签**：Trojan、VPN推荐、IPLC专线、Clash节点、4K秒开
+**热门标签**：梯子推荐、Shadowsocks、科学上网、便宜机场、高速节点
 
 ## 最新更新 (Recent Updates)
 
@@ -171,8 +171,35 @@
 
 ## 推荐资源 (Recommended Resources)
 
-### 💎 [Oldtang 机场推荐 - 高速稳定 4K 秒开](https://oldtang.dyt.one)
-注册即可免费试用，OldTang 提供稳定高速的节点。
+### 🚀 [Jc/nunet 怎么样？最新使用体验报告](https://kerrynotes.blog/jc/nunet)
+晚高峰 4K 视频秒开，jc/nunet 值得一试。
+
+### 🚀 [便宜机场推荐：Go/sdm 性价比之选](https://kerrynotes.blog/go/sdm)
+晚高峰 4K 视频秒开，go/sdm 值得一试。
+
+### 🌐 [安卓/iOS/Mac/Windows 通用机场推荐：Go/juziaff](https://kerrynotes.blog/go/juziaff)
+点击上方链接访问 go/juziaff 官网，获取最新优惠。
+
+### 🔥 [Jc/taishanaff - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jc/taishanaff)
+注册即可免费试用，jc/taishanaff 提供稳定高速的节点。
+
+### 💡 [Jc/grcaff 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/grcaff)
+晚高峰 4K 视频秒开，jc/grcaff 值得一试。
+
+### 📝 [便宜机场推荐：Jc/dtaff2 性价比之选](https://kerrynotes.blog/jc/dtaff2)
+jc/dtaff2 是一款性价比极高的加速服务，支持多平台使用。
+
+### ⭐ [Jc/dtaff 机场推荐 - 高速稳定 4K 秒开](https://kerrynotes.blog/jc/dtaff)
+点击上方链接访问 jc/dtaff 官网，获取最新优惠。
+
+### 📝 [便宜机场推荐：Jc/taishan3 性价比之选](https://kerrynotes.blog/jc/taishan3)
+专线接入，超低延迟，游戏/视频两不误。
+
+### ⚡ [Jc/xxai - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/jc/xxai)
+jc/xxai 是一款性价比极高的加速服务，支持多平台使用。
+
+### 💡 [Dog - 解锁流媒体，晚高峰不卡顿](https://kerrynotes.blog/dog)
+晚高峰 4K 视频秒开，dog 值得一试。
 
 ---
 ## 历史归档 (History)
@@ -203,4 +230,4 @@
 ### 免责声明
 本文内容仅供学习和技术交流使用，请勿用于非法用途。请遵守当地法律法规。
 
-*自动更新于 2026-11-08 08:07:20*
+*自动更新于 2026-11-09 08:44:58*
